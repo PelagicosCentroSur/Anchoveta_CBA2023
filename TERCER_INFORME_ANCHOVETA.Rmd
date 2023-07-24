@@ -461,8 +461,7 @@ El presente informe contiene la segunda actualización del estatus del año biol
 
 En relación a los datos de entrada al modelo de evaluación de stock, se observa que entre los años 2009 y 2017 se registraron los niveles más bajos de biomasa acústica de verano con un valor promedio de 101 mil t. Sin embargo, el año 2018 se observó un primer incremento importante hasta 347 mil t, consolidándose en los últimos cuatro años (2020 - 2023), su máximo el año 2022 con poco más de 1 millon de toneladas, el valor más alto en más de una década. A enero de 2023, los altos valores de biomasa se mantienen sobre el millón de toneladas. Algo similar se observa en las tendencias de los cruceros de otoño, observándose una recuperación en la biomasa del stock desde el 2016, registrándose el año 2022 el nivel más alto de los últimos 15 años, en 1,4 millones de t. En relación a las capturas de anchoveta de las regiones de Valparaíso a Los Lagos, UPCS, su variación es consistente con los cambios en los niveles de biomasa estimados por los cruceros acústicos de verano y otoño. Entre los años 2011/12 y 2017/18 se registran los desembarques oficiales más bajos de la serie, en torno a 62 mil toneladas en promedio. Para el año 2019/20 a 160 mil t, un 15% mayor al año previo y para el año 2020/21 se incrementa a 209.5 mil t, un 31% mayor al año previo y un 96% mayor al promedio de los últimos 9 años (período 2011/12 - 2019/20). Finalmente, si bien para el año 2021/22 se registra una disminución del 2,9% respecto a lo registrado el año previo, para el año biológico actual (2022/23) se estima una captura total en torno a las 245 mil t.
 
-El modelo base utilizado en este estudio corresponde a un modelo anual en escala biológica el cual es eﬁciente en reproducir la tendencia general de la biomasa estimada en los cruceros hidroacústicos, especialmente a partir del año 2009/10. Para los años 2022 y 2023, el modelo no logra ajustar adecuadamente el incremento observado en biomasa
-por los cruceros de verano, sin embargo, la información del crucero de otoño es ajustada adecuadamente. El análisis consigue ajustar apropiadamente la información de la proporción de edades en las capturas y cruceros de evaluación directa. Respecto a las variables poblacionales, el modelo en escala biológica es eﬁciente en recoger las ﬂuctuaciones en los indicadores del stock, los cuales son consistentes con la variabilidad en los reclutamientos y en los índices (cruceros de verano y otoño) que calibran el modelo de evaluación.
+El modelo base utilizado en este estudio corresponde a un modelo anual en escala biológica el cual es eﬁciente en reproducir la tendencia general de la biomasa estimada en los cruceros hidroacústicos, especialmente a partir del año 2009/10. Para los años 2022 y 2023, el modelo no logra ajustar adecuadamente el incremento observado en biomasa por los cruceros de verano, sin embargo, la información del crucero de otoño es ajustada adecuadamente. El análisis consigue ajustar apropiadamente la información de la proporción de edades en las capturas y cruceros de evaluación directa. Respecto a las variables poblacionales, el modelo en escala biológica es eﬁciente en recoger las ﬂuctuaciones en los indicadores del stock, los cuales son consistentes con la variabilidad en los reclutamientos y en los índices (cruceros de verano y otoño) que calibran el modelo de evaluación.
 
 El análisis histórico de la condición de anchoveta centro-sur muestra que entre los años 1996/97 al 2000/01 el stock se encontraba sobreexplotado con biomasas por debajo del objetivo de manejo ($BD<BD_{RMS}$). A partir del 2001/02 se incrementan los niveles de biomasa desovante, permitiendo que el stock transite y se mantenga en una condición de plena explotación hasta el 2007/08. No obstante, los niveles de reclutamiento para el año 2008 se reducen drásticamente generando niveles de biomasa desovante por debajo del promedio histórico para el 2008/09. Debido a la falla en los reclutamientos, desde el año 2009/10 la anchoveta de la zona centro-sur cambia drásticamente su estatus a una condición de agotamiento y/o colapso, manteniendose en ese estatus durante 8 años (2009/10 al 2016/17). A partir de 2017/18 se maniﬁesta una recuperación del stock, transitando de la zona de colapso a la zona de sobre-explotación los años 2017/18 y 2018/19 y de plena-explotación los años últimos 4 años de la serie histórica. En términos de los niveles de mortalidad por pesca (Ft año^-1^), en general, se ha mantenido históricamente por sobre el nivel objetivo de referencia $F_{RMS}$, no obstante, a partir del año 2016/17, los niveles de Ft estuvieron bajo el objetivo de manejo. Respecto a la condición actual de anchoveta centro-sur, los resultados indican una recuperación del estatus generada por el incremento de los reclutamientos 2018/19 y 2019/20, la disminución de la mortalidad por pesca por debajo del objetivo de manejo ($F<F_{RMS}$) y 2/3 por debajo de M (M=0,7 año^-1^) y el incremento de la biomasa total y desovante de los últimos 4 años. Por lo tanto, anchoveta centro-sur se encuentra en una condición de plena-explotación con 1,38% de probabilidad de sobre-explotación y 0% de
 probabilidad de colapso.
@@ -496,8 +495,7 @@ Proveer la asesoría científica necesaria para la determinación del estado de 
 
 2.  Establecer el estatus actualizado de anchoveta, sobre la base de sus principales indicadores estandarizados de estado y flujo, propagando para estos efectos todas las fuentes de incertidumbre subyacente a la pesquería.
 
-3.  Determinar niveles de Captura Biológicamente Aceptable (CBA) que lleven y/o mantenga la pesquería en torno al Rendimiento Máximo Sostenible (RMS), a partir de un análisis de riesgo en condiciones de incertidumbre de no alcanzar los objetivos de conservación y sostenibilidad conforme lo establece la LGPA y contenidos en el Plan
-    de Manejo y/o en el Programa de Recuperación respectivo, según corresponda.
+3.  Determinar niveles de Captura Biológicamente Aceptable (CBA) que lleven y/o mantenga la pesquería en torno al Rendimiento Máximo Sostenible (RMS), a partir de un análisis de riesgo en condiciones de incertidumbre de no alcanzar los objetivos de conservación y sostenibilidad conforme lo establece la LGPA y contenidos en el Plan de Manejo y/o en el Programa de Recuperación respectivo, según corresponda.
 
 4.  Informar el avance del Programa de Mejoramiento Continuo de la Calidad en la Asesoría Científica (PMCCAC) realizado durante el presente estudio, respecto al cumplimiento de recomendaciones formuladas en procesos de RPEI y priorizadas por el CCT, cuando corresponda.
 
@@ -752,71 +750,16 @@ ggplot(desm_anch_sard )+
 
 ```
 
-Considerando que anchoveta conforma una pesquería mixta junto con
-sardina común en la UPCS y con el objeto de dar viabilidad a la
-pesquería en su conjunto, el año 2013 se recomienda establecer una CGC
-de anchoveta de 120.000 toneladas. Para ello, una fracción de la cuota
-correspondiente al sector artesanal de la Región del Bio-Bio, se destinó
-para ser capturada en calidad de fauna acompañante en la pesca dirigida
-a la sardina común. Esto, con el objetivo de ser imputada una vez que la
-cuota de anchoveta asignada en calidad de especie objetivo haya sido
-consumida en su totalidad por efectos de la pesca. Para tales efectos,
-se consideró como fauna acompañante, no sobrepasar el 49% de la captura
-de anchoveta medido en peso respecto de la suma de las capturas de
-anchoveta y sardina común por cada viaje de pesca (RPESQ 2013).
-Asímismo, la CGC 2014 se estableció entre un 7% y 13% de la captura de
-sardina común. Esta asignación de CGC coincidió con el establecimiento
-del nuevo Reglamento (D:S: N° 77, Mayo 2013) dispuesto en la Ley General
-de Pesca y Acuicultura (LGPA) que establece que las pesquerías deberán
-alcanzar o mantenerse en torno del Rendimiento Máximo Sostenido (RMS)
-considerando las características biológicas de los recursos explotados.
-La nueva LGPA estableció que el Comité Científico Técnico será quien
-recomiende el marco biológico de referencia, estatus de conservación
-biológica y rango de Captura Biológicamente Aceptable (CBA).
+Considerando que anchoveta conforma una pesquería mixta junto con sardina común en la UPCS y con el objeto de dar viabilidad a la pesquería en su conjunto, el año 2013 se recomienda establecer una CGC de anchoveta de 120.000 toneladas. Para ello, una fracción de la cuota correspondiente al sector artesanal de la Región del Bio-Bio, se destinó para ser capturada en calidad de fauna acompañante en la pesca dirigida a la sardina común. Esto, con el objetivo de ser imputada una vez que la cuota de anchoveta asignada en calidad de especie objetivo haya sido consumida en su totalidad por efectos de la pesca. Para tales efectos, se consideró como fauna acompañante, no sobrepasar el 49% de la captura de anchoveta medido en peso respecto de la suma de las capturas de anchoveta y sardina común por cada viaje de pesca (RPESQ 2013). Asímismo, la CGC 2014 se estableció entre un 7% y 13% de la captura de sardina común. Esta asignación de CGC coincidió con el establecimiento del nuevo Reglamento (D:S: N° 77, Mayo 2013) dispuesto en la Ley General de Pesca y Acuicultura (LGPA) que establece que las pesquerías deberán alcanzar o mantenerse en torno del Rendimiento Máximo Sostenido (RMS) considerando las características biológicas de los recursos explotados. La nueva LGPA estableció que el Comité Científico Técnico será quien recomiende el marco biológico de referencia, estatus de conservación biológica y rango de Captura Biológicamente Aceptable (CBA).
 \vspace{0.3cm}
 
 \normalsize
 
 ## Evaluación de stock
 
-La evaluación de stock en Chile ha sido desarrollada y perfeccionada en
-IFOP por más de 20 años, con metodologías acordes con los estándares
-internacionales vigentes. A su vez, los modelos y métodos han sido
-clasificados en grupos de calidad o "Tiers" conforme el nivel de
-conocimiento, cantidad y calidad de la información disponible que aporta
-la evaluación de stock. Se ha tomado en consideración las
-recomendaciones emanadas tanto desde los Comités Científico Técnicos
-como de los lineamientos entregados por el equipo de expertos
-internacionales en el marco del proyecto "Revisión de los puntos
-biológicos de referencia (Rendimiento Máximo Sostenido) en las
-pesquerías nacionales" [@Paya2014]. En el desarrollo de (los) método(s)
-y modelo(s) empleados se consideran elementos de incertidumbre
-estructural basados en el nivel de conocimiento y de la información o
-datos disponibles, así como la incertidumbre de estimación generada de
-su aplicación al conjunto de datos disponibles. Independientemente del
-nivel del estándar, en base al permanente proceso de mejora se
-recomendará la realización de estudios, cruceros, investigaciones,
-monitoreo y otras acciones conducentes a mejorar el estado de
-conocimiento del recurso en cuestión y la pesquería, con el fin de
-allanar las brechas de conocimiento e información conducentes a reducir
-los niveles de incertidumbre.
+La evaluación de stock en Chile ha sido desarrollada y perfeccionada en IFOP por más de 20 años, con metodologías acordes con los estándares internacionales vigentes. A su vez, los modelos y métodos han sido clasificados en grupos de calidad o "Tiers" conforme el nivel de conocimiento, cantidad y calidad de la información disponible que aporta la evaluación de stock. Se ha tomado en consideración las recomendaciones emanadas tanto desde los Comités Científico Técnicos como de los lineamientos entregados por el equipo de expertos internacionales en el marco del proyecto "Revisión de los puntos biológicos de referencia (Rendimiento Máximo Sostenido) en las pesquerías nacionales" [@Paya2014]. En el desarrollo de (los) método(s) y modelo(s) empleados se consideran elementos de incertidumbre estructural basados en el nivel de conocimiento y de la información o datos disponibles, así como la incertidumbre de estimación generada de su aplicación al conjunto de datos disponibles.  Independientemente del nivel del estándar, en base al permanente proceso de mejora se recomendará la realización de estudios, cruceros, investigaciones, monitoreo y otras acciones conducentes a mejorar el estado de conocimiento del recurso en cuestión y la pesquería, con el fin de allanar las brechas de conocimiento e información conducentes a reducir los niveles de incertidumbre.
 
-El stock de anchoveta en la UPCS comenzó a ser evaluada oficialmente en
-1996 por @Barria1998 y @Barria1999, con métodos estructurados por edad
-en escala calendaria. La \textbf{Tabla \ref{Tab1}} muestra las
-características que ha tenido la evolución en la modelación de dinámica
-poblacional en los últimos 21 años. Luego de Excel, MATLAB fue la
-plataforma de computación por más de 10 años y en esta se implementaron
-modelos de dinámica en edades en escala anual y semestral con
-observaciones en tallas y edades. Recién el año 2010 se inicia la
-migración de los modelos hacia el lenguaje ADMB [@Fournier2012] con lo
-cual IFOP queda inserto en la línea de las evaluaciones de stock cuyo
-lenguaje de programación es internacionalmente aceptado. En el presente
-estudio (asesoría de enero 2023) se realiza el cambio de modelo base en
-escala año calendaria (MAE) a escala año biológica (MAEB), el cual fue
-adoptado por el CCT-PP en la sesión de mayo 2020 (Acta Sesión Nº3 y
-@Zuniga2020b en ANEXO I), reemplazando al modelo en año calendario
-históricamente utilizado. \vspace{0.5cm}
+El stock de anchoveta en la UPCS comenzó a ser evaluada oficialmente en 1996 por @Barria1998 y @Barria1999, con métodos estructurados por edad en escala calendaria. La \textbf{Tabla \ref{Tab1}} muestra las características que ha tenido la evolución en la modelación de dinámica poblacional en los últimos 21 años. Luego de Excel, MATLAB fue la plataforma de computación por más de 10 años y en esta se implementaron modelos de dinámica en edades en escala anual y semestral con observaciones en tallas y edades. Recién el año 2010 se inicia la migración de los modelos hacia el lenguaje ADMB [@Fournier2012] con lo cual IFOP queda inserto en la línea de las evaluaciones de stock cuyo lenguaje de programación es internacionalmente aceptado. En el presente estudio (asesoría de enero 2023) se realiza el cambio de modelo base en escala año calendaria (MAE) a escala año biológica (MAEB), el cual fue adoptado por el CCT-PP en la sesión de mayo 2020 (Acta Sesión Nº3 y @Zuniga2020b en ANEXO I), reemplazando al modelo en año calendario históricamente utilizado. \vspace{0.5cm}
 
 ```{=tex}
 \begin{table}[ht!]
@@ -856,48 +799,11 @@ históricamente utilizado. \vspace{0.5cm}
 ```
 \normalsize
 
-En base al modelo conceptual de la dinámica del stock de anchoveta
-centro-sur se sustentará el enfoque y modelo de evaluación, que
-permitirá asesorar al Comité Científico Técnico de Pesquerías Pelágicos
-Pequeños en los análisis de la productividad del stock y de sus
-posibilidades de explotación, considerando los parámetros e indicadores
-estimados por el modelo de evaluación de anchoveta, con su incertidumbre
-asociada. El análisis considera como criterio de explotación, aquel
-nivel de mortalidad que conduce al Rendimiento Máximo Sostenido
-($F_{RMS}$), la proyección poblacional bajo condiciones de incertidumbre y
-la generación de tablas de decisión sobre las consecuencias de
-determinadas acciones en base a posibles estados de la naturaleza
-(optimista, neutro, pesimista) de variables de estado relevantes tales
-como biomasa desovante y/o niveles de reclutamiento, junto al riesgo de
-no lograr determinados objetivos.
+En base al modelo conceptual de la dinámica del stock de anchoveta centro-sur se sustentará el enfoque y modelo de evaluación, que permitirá asesorar al Comité Científico Técnico de Pesquerías Pelágicos Pequeños en los análisis de la productividad del stock y de sus posibilidades de explotación, considerando los parámetros e indicadores estimados por el modelo de evaluación de anchoveta, con su incertidumbre asociada. El análisis considera como criterio de explotación, aquel nivel de mortalidad que conduce al Rendimiento Máximo Sostenido ($F_{RMS}$), la proyección poblacional bajo condiciones de incertidumbre y la generación de tablas de decisión sobre las consecuencias de determinadas acciones en base a posibles estados de la naturaleza (optimista, neutro, pesimista) de variables de estado relevantes tales como biomasa desovante y/o niveles de reclutamiento, junto al riesgo de no lograr determinados objetivos.
 
 ## Estatus
 
-Debido a los bajos reclutamientos registrados en los últimos años, los
-que se ubican bajo el nivel promedio de la serie histórica, el estatus
-de esta pesquería, se mantuvo en una condición de colapso desde el 2009
-hasta el 2017. Dicha condición podría ser producto de diversos factores
-biológicos (fenómenos depensatorios de la dinámica poblacional,
-reducción del potencial reproductivo) y factores oceanográficos
-desfavorables para anchoveta y que han favorecido la producción de la
-sardina común dejando en evidencia la alternancia de ambas especies, las
-cuales son explotadas en la misma área y por la misma flota.
-Considerando que la anchoveta constituye una pesquería mixta con sardina
-común y que ambas se encuentran en niveles de productividad muy
-disímiles, resulta complejo alcanzar el máximo rendimiento sostenido
-simultáneamente para cada una de las especies
-(\textbf{Figura \ref{Fig6}}). A partir del año 2018 se observa una
-recuperación de anchoveta centro-sur desplazandose desde una condición
-de agotada/colapsada a una condición de plenaexplotación. Esta
-recuperación se debe al incremento en los niveles de biomasa en la UPCS,
-registrado tanto por los cruceros hidroacústicos como en la composición
-de edad y pesos medios de la flota. Mientras que los bajos niveles de
-reclutamiento registrados en sardina común durante dos años consecutivos
-han generado una disminución de los niveles de biomasa desovante,
-registrándose una condición de sobre-explotación para el año 2021. No
-obstante, el reclutamiento estimado para el año 2021 de sardina común
-generó una recuperación de los niveles de biomasa desovante durante el
-2021/22. \vspace{0.2cm}
+Debido a los bajos reclutamientos registrados en los últimos años, los que se ubican bajo el nivel promedio de la serie histórica, el estatus de esta pesquería, se mantuvo en una condición de colapso desde el 2009 hasta el 2017. Dicha condición podría ser producto de diversos factores biológicos (fenómenos depensatorios de la dinámica poblacional, reducción del potencial reproductivo) y factores oceanográficos desfavorables para anchoveta y que han favorecido la producción de la sardina común dejando en evidencia la alternancia de ambas especies, las cuales son explotadas en la misma área y por la misma flota. Considerando que la anchoveta constituye una pesquería mixta con sardina común y que ambas se encuentran en niveles de productividad muy disímiles, resulta complejo alcanzar el máximo rendimiento sostenido simultáneamente para cada una de las especies (\textbf{Figura \ref{Fig6}}). A partir del año 2018 se observa una recuperación de anchoveta centro-sur desplazandose desde una condición de agotada/colapsada a una condición de plenaexplotación. Esta recuperación se debe al incremento en los niveles de biomasa en la UPCS, registrado tanto por los cruceros hidroacústicos como en la composición de edad y pesos medios de la flota. Mientras que los bajos niveles de reclutamiento registrados en sardina común durante dos años consecutivos han generado una disminución de los niveles de biomasa desovante, registrándose una condición de sobre-explotación para el año 2021. No obstante, el reclutamiento estimado para el año 2021 de sardina común generó una recuperación de los niveles de biomasa desovante durante el 2021/22. \vspace{0.2cm}
 
 ```{r Fig6, eval=T,fig.height=3.5,fig.width=5.5,fig.cap="\\label{Fig6}Razón $BD/BD_{RMS}$ de sardina común y anchoveta de las regiones de Valparaíso a Los Lagos."}
 years<-seq(1997,2022)
@@ -923,13 +829,11 @@ ggplot(dataEstatus )+
 
 ## Captura Biológicamente Aceptable (CBA)
 
-De acuerdo al ciclo de manejo histórico de esta pesquería, la recomendación de CBA comienza con el cálculo de la CBA inicial que permite al CCT-PP, en septiembre de cada año, establecer el estatus y recomendar el rango de CBA para el año siguiente. En el mes de enero, el crucero de evaluación hidroacústico permite estimar la abundancia y biomasa de reclutas (crucero de verano), esta información junto a datos provenientes de la pesquería (del año anterior) es utilizada para la
-primera revisión de la CBA (marzo). En marzo se inicia el período de extracción y en mayo se realiza el segundo crucero de evaluación acústica (crucero de otoño) para actualizar el estatus y revisar una vez más la CBA (julio).
+De acuerdo al ciclo de manejo histórico de esta pesquería, la recomendación de CBA comienza con el cálculo de la CBA inicial que permite al CCT-PP, en septiembre de cada año, establecer el estatus y recomendar el rango de CBA para el año siguiente. En el mes de enero, el crucero de evaluación hidroacústico permite estimar la abundancia y biomasa de reclutas (crucero de verano), esta información junto a datos provenientes de la pesquería (del año anterior) es utilizada para la primera revisión de la CBA (marzo). En marzo se inicia el período de extracción y en mayo se realiza el segundo crucero de evaluación acústica (crucero de otoño) para actualizar el estatus y revisar una vez más la CBA (julio).
 
-En el caso de anchoveta en la UPCS, el cálculo de la CBA durante la 1era y 2da revisión se basa principalmente en los peces que sobrevivieron al año anterior (peces de edad 1), más que en los peces que están reclutando en el año actual (información entregada por cruceros de verano y otoño, peces de edad 0). Por lo tanto, durante los años en que la condición del stock no fue favorable, la actualizado el modelo con información del año anterior (pesquería) provocaba una disminución de la fracción explotable y como consecuencia una disminución de la CBA. El problema desde un punto de vista práctico y administrativo se traduce es la imposibilidad de disminuir la Cuota asignada, ya que por lo general a mitad de año (segunda revisión) gran parte de la cuota ha sido consumida. Ante esta situación el CCT-PP ha recomendado mantener una situación de "\textit{statu quo}" cada vez que se ha presentado una disminución de la CBA en la 1era o 2da revisión. Sin embargo, aun cuando la CBA no ha sido disminuida, los desembarques han sobrepasado los niveles de capturas recomendados por el CCT-PP, producto de la incorporación del programa de descarte el año 2013. Una de las consecuencias es que los desembarques superan entre 1,35 -- 1,84 veces la CBA establecida por el CCT-PP. Entre el 2017 y 2018 los desembarques estuvieron en torno de la CBA recomendada en 0,95 -- 1,03 veces la CBA respectivamente, sin embargo, el año 2019 y 2020 el desembarque vuelve a
-sobrepasar la CBA recomendada. La CBA recomendada para el 2021 está en torno a las 210 mil toneladas, un 23% mayor a lo recomendado el año previo, no obstante, a diciembre 2021 se desembarcó un 81% de la CBA recomendada para el año 2021. Dado que la cuota 2021 no fue consumida
-completamente, se autorizó a través de la Ley de Remanente (Ley N° 21.414) capturar el saldo de cuota 2021 (35 mil t) a inicio de la temporada de pesca 2022. A junio 2022 se ha registrado el desembarque más alto desde el 2014, parte de este desembarque corresponde al consumo de cuota 2021 (saldo de cuota 2021) y consumo de cuota 2022. Por último, el cálculo de la CBA inicial para el año 2023 (estimada en septiembre 2022) recomienda una cuota de 178,6 mil toneladas, superior a lo
-estimado inicialmente para el año 2022 (\textbf{Tabla \ref{Tab2}}).
+En el caso de anchoveta en la UPCS, el cálculo de la CBA durante la 1era y 2da revisión se basa principalmente en los peces que sobrevivieron al año anterior (peces de edad 1), más que en los peces que están reclutando en el año actual (información entregada por cruceros de verano y otoño, peces de edad 0). Por lo tanto, durante los años en que la condición del stock no fue favorable, la actualizado el modelo con información del año anterior (pesquería) provocaba una disminución de la fracción explotable y como consecuencia una disminución de la CBA. El problema desde un punto de vista práctico y administrativo se traduce es la imposibilidad de disminuir la Cuota asignada, ya que por lo general a mitad de año (segunda revisión) gran parte de la cuota ha sido consumida. Ante esta situación el CCT-PP ha recomendado mantener una situación de "\textit{statu quo}" cada vez que se ha presentado una disminución de la CBA en la 1era o 2da revisión. Sin embargo, aun cuando la CBA no ha sido disminuida, los desembarques han sobrepasado los niveles de capturas recomendados por el CCT-PP, producto de la incorporación del programa de descarte el año 2013. Una de las consecuencias es que los desembarques superan entre 1,35 -- 1,84 veces la CBA establecida por el CCT-PP. Entre el 2017 y 2018 los desembarques estuvieron en torno de la CBA recomendada en 0,95 -- 1,03 veces la CBA respectivamente, sin embargo, el año 2019 y 2020 el desembarque vuelve a sobrepasar la CBA recomendada. La CBA recomendada para el 2021 está en torno a las 210 mil toneladas, un 23% mayor a lo recomendado el año previo, no obstante, a diciembre 2021 se desembarcó un 81% de la CBA recomendada para el año 2021. Dado que la cuota 2021 no fue consumida completamente, se autorizó a través de la Ley de Remanente (Ley N° 21.414) capturar el saldo de cuota 2021 (35 mil t) a inicio de la temporada de pesca 2022. Durante el primer semestre 2022 se  registró el desembarque más alto desde el 2014, parte de este desembarque corresponde al consumo de cuota 2021 (remanente de cuota 2021) y consumo de cuota 2022 (\textbf{Tablas \ref{Tab2} y \ref{Tab2b}}). 
+Por último, el cálculo de la CBA inicial para el año 2023 recomienda una cuota de 178,6 mil toneladas, adicionalmente, se autoriza a través de la nueva Ley de Remanente (Ley Nº 21.525) capturar el remanente de cuota 2022 (63,6 mil toneladas) a inicios de la temporada de pesca 2023, de los cuales se han consumido 36,2 mil toneladas a mayo 2023. El desembarque acumulado a junio 2023 es de 156 mil toneladas (\textbf{Tablas \ref{Tab2} y \ref{Tab2b}}).
+
 \newpage
 
 ```{=tex}
@@ -986,11 +890,13 @@ Sem2<-c("Segundo Semestre",colSums(desembarquesmes[7:12,2:10]))
 
 desembarquesmes2<-rbind(desembarquesmes,Total, Sem1,Sem2)
 
-caption1<-"Desembarques mensuales de anchoveta registrados por SERNAPESCA entre los años 2015 al 2023."
+caption1<-"\\label{Tab2b}Desembarques mensuales de anchoveta registrados por SERNAPESCA entre los años 2015 al 2023."
 
-  kbl(desembarquesmes2, booktabs = T,format = "latex",position="h!",escape = F,align="l",format.args=list(big.mark = '.'), caption = caption1) %>% 
+  kbl(desembarquesmes2, booktabs = T,format = "latex",position="h!",escape = T,align="l",format.args=list(big.mark = '.'), 
+      caption = caption1,linesep = c("","","","","","\\addlinespace")) %>% 
     kable_styling(latex_options = c("striped", "condensed"),
-                  full_width = FALSE,font_size=9)
+                  full_width = FALSE,font_size=9) %>% 
+    row_spec(13:15,italic = TRUE,bold=TRUE) 
 
 ```
 
@@ -1248,11 +1154,13 @@ porcDesc_actualizado<-c(rep("0\\%",4),rep("4\\%",17),rep("1,4\\%",1),
 ```
 
 
-Entre los años `r years[13]`  y `r years[21]`  se registraron los niveles más bajos de biomasa acústica de verano con un valor promedio de `r formatC(round(mean(reclasobs[13:21])/1000,0),decimal.mark = ",")` mil t. Sin embargo, el año `r years[22]`  se observó un primer incremento importante hasta `r formatC(round(reclasobs[22]/1000,1),decimal.mark = ",")` mil t, valor que se duplicó al año siguiente, y que alcanzó su máximo el año `r years[26]` con `r formatC(round(reclasobs[26]/1000,1),decimal.mark = ",")` mil t, el valor más alto en más de una década. Al año `r years[27]` la biomasa acústica de verano sigue registrando valores sobre el millón de toneladas. Algo similar se observa en las tendencias de los cruceros de otoño, con la dferencia de que la recuperación en la biomasa del stock se apreció a partir del año `r years[20]`, registrándose el año `r years[26]`  el nivel más alto de los últimos `r length(years[13:27])` años, con una biomasa de `r formatC(pelacesobs[26]/1000000,decimal.mark = ",",digits = 2)` millones de t (\textbf{Tabla \ref{t1}}). 
+```{r}
+load(Rdata_H3)
+```
 
-En relación a las capturas de anchoveta de las regiones de Valparaíso a Los Lagos, su variación es consistente con los cambios en los niveles de biomasa estimados por los cruceros acústicos de verano y otoño. Entre el `r yearsbiol[16]` y `r yearsbiol[22]` se registran capturas totales en torno a `r formatC(round(mean(CapturaTotal[16:22])/1000,1),decimal.mark = ",")`  mil toneladas en promedio. Para el `r yearsbiol[23]`  se incrementan a `r formatC(round(CapturaTotal[23]/1000,1),decimal.mark = ",")` mil t, 
-para el año `r yearsbiol[24]`  a `r formatC(round(CapturaTotal[24]/1000,1),decimal.mark = ",")`  mil t (un `r formatC(-(1-(CapturaTotal[24]/CapturaTotal[23]))*100,decimal.mark = ",",digits = 2)`% mayor al año previo), y para el año `r yearsbiol[25]` se incrementa `r formatC(round(CapturaTotal[25]/1000,1),decimal.mark = ",")`  mil t, un `r formatC(-(1-(CapturaTotal[25]/CapturaTotal[24]))*100,decimal.mark = ",",digits = 2)`%  mayor al año previo 
-y `r formatC(-(1-(CapturaTotal[24]/mean(CapturaTotal[16:24])))*100,decimal.mark = ",",digits = 2)`%  mayor al promedio de los últimos `r length(yearsbiol[16:24])` años (período `r yearsbiol[16]` - `r yearsbiol[24]`). Finalmente, si bien para el año `r yearsbiol[26]`  se registra una disminución del `r formatC((1-(CapturaTotal[26]/CapturaTotal[25]))*100,decimal.mark = ",",digits = 2)`% respecto a lo registrado el año previo, para el año biológico actual (`r yearsbiol[27]`) se estima una captura total en torno a las `r formatC(round(CapturaTotal[27]/1000,1),decimal.mark = ",")`  mil t  (\textbf{Tabla \ref{t2}} y \textbf{Figura \ref{Fig17}}). 
+Entre los años 2009  y 2017 se registraron los niveles más bajos de biomasa acústica de verano con un valor promedio de `r formatC(round(mean(reclasobs[13:21])/1000,0),decimal.mark = ",")` mil t. Sin embargo, el año `r years[22]`  se observó un primer incremento importante hasta `r formatC(round(reclasobs[22]/1000,1),decimal.mark = ",")` mil t, valor que se duplicó al año siguiente, y que alcanzó su máximo el año `r years[26]` con `r formatC(round(reclasobs[26]/1000,1),decimal.mark = ",")` mil t, el valor más alto en más de una década. Al año `r years[27]` la biomasa acústica de verano sigue registrando valores sobre el millón de toneladas. Algo similar se observa en las tendencias de los cruceros de otoño, con la diferencia de que la recuperación en la biomasa del stock se apreció a partir del año `r years[20]`, registrándose el año `r years[27]`  el nivel más alto de los últimos `r length(years[13:27])` años, con una biomasa de `r formatC(pelacesobs[27]/1000000,decimal.mark = ",",digits = 3)` millones de t (\textbf{Tabla \ref{t1}}). 
+
+En relación a las capturas de anchoveta de las regiones de Valparaíso a Los Lagos, su variación es consistente con los cambios en los niveles de biomasa estimados por los cruceros acústicos de verano y otoño. Entre el `r yearsbiol[16]` y `r yearsbiol[22]` se registran capturas totales en torno a `r formatC(round(mean(CapturaTotal[16:22])/1000,1),decimal.mark = ",")`  mil toneladas en promedio. Para el `r yearsbiol[23]`  se incrementan a `r formatC(round(CapturaTotal[23]/1000,1),decimal.mark = ",")` mil t, para el año `r yearsbiol[24]`  a `r formatC(round(CapturaTotal[24]/1000,1),decimal.mark = ",")`  mil t (un `r formatC(-(1-(CapturaTotal[24]/CapturaTotal[23]))*100,decimal.mark = ",",digits = 2)`% mayor al año previo), y para el año `r yearsbiol[25]` se incrementa `r formatC(round(CapturaTotal[25]/1000,1),decimal.mark = ",")`  mil t, un `r formatC(-(1-(CapturaTotal[25]/CapturaTotal[24]))*100,decimal.mark = ",",digits = 2)`%  mayor al año previo y `r formatC(-(1-(CapturaTotal[24]/mean(CapturaTotal[16:24])))*100,decimal.mark = ",",digits = 2)`%  mayor al promedio de los últimos `r length(yearsbiol[16:24])` años (período `r yearsbiol[16]` - `r yearsbiol[24]`). Finalmente, si bien para el año `r yearsbiol[26]`  se registra una disminución del `r formatC((1-(CapturaTotal[26]/CapturaTotal[25]))*100,decimal.mark = ",",digits = 2)`% respecto a lo registrado el año previo, para el año biológico actual (`r yearsbiol[27]`) disminuye nuevamente y se encuentra en torno a las `r formatC(round(CapturaTotal[27]/1000,1),decimal.mark = ",")`  mil t  (\textbf{Tabla \ref{t2}} y \textbf{Figura \ref{Fig17}}). 
 
 La pesquería de anchoveta está sustentada principalmente por la abundancia de los grupos de edad (GE) 1 y 2. A partir del `r years[21]` el GE 0 muestra una tendencia al incremento, sin embargo, para el periodo `r yearsbiol[25]`, `r yearsbiol[26]` y `r yearsbiol[27]`  su aporte a la abundancia total  está en torno al `r formatC(mean(pfobs[25:26,1])*100,decimal.mark = ",",digits = 2)`% . Respecto a los pesos medios, para el GE 0 se encuentra en torno a los `r formatC(mean(WmedF[,1]),decimal.mark = ",",digits = 2)`  grs, para el GE 1 en los `r formatC(mean(WmedF[,2]),decimal.mark = ",",digits = 2)` grs en promedio. Desde el año `r years[18]`  se observa un incremento en esta variable en todos los GE, excepto en los ejemplares de edad 0, tomando en cuenta una marcada disminución el año `r years[22]` (\textbf{Figura \ref{Fig19}}). 
 
@@ -1400,19 +1308,19 @@ otoño (PELACES)                & $B_t^{co}$  & (mayo), ($dt^{co}=0,83$ del año
                                &        & \\
 Proporción de la abundancia    & $p_{(a,t)}^f$    & Representa la distribución de los ejemplares que están presentes \\ 
 a la edad de la flota          &        & en la captura total por grupo de edad. Tamaño de muestra efectivo \\
-                               &        & supuesto como parte del error de observación  $n^f=10,6$.\\
+                               &        & supuesto como parte del error de observación  $n^f=10,8$.\\
                                &        & \\ \rowcolor{Gray4}
                                &        & \\ \rowcolor{Gray4}
 Proporción de la abundancia    & $p_{(a,t)}^{cv}$ & Representa la distribución de los ejemplares que están  \\ \rowcolor{Gray4}
 a la edad del Crucero verano   &        & presentes en la captura del crucero de verano (enero) por grupo \\ \rowcolor{Gray4}
                                &        & de edad. Tamaño de muestra efectivo supuesto como parte \\ \rowcolor{Gray4}
-                               &        & del error de observación $n^{cv}=11$.\\ \rowcolor{Gray4}
+                               &        & del error de observación $n^{cv}=10,6$.\\ \rowcolor{Gray4}
                                &        & \\ 
                                &        & \\
 Proporción de la abundancia    & $p_{(a,t)}^{co}$ & Representa la distribución de los ejemplares que están presentes \\
 a la edad del Crucero otoño    &        & en la captura del crucero de otoño (mayo) por grupo de edad. \\
                                &        & Tamaño de muestra efectivo supuesto como parte del error de \\
-                               &        & observación $n^{co}=7$. \\ 
+                               &        & observación $n^{co}=4,6$. \\ 
                                &        & \\ \rowcolor{Gray4}
                                &        & \\ \rowcolor{Gray4}
 Peso medio anual               & $w_{(a,t)}^{med}$ & Es el peso medio empleado para generar estimaciones \\ \rowcolor{Gray4}
@@ -1722,7 +1630,7 @@ Con respecto a la capturabilidad del crucero de otoño, esta era estimada en tor
 
 \quad
 
-El modelo de la dinámica poblacional fue programado en la plataforma AD Model Builder [@Fournier2012]. Todos los códigos fuente y datos empleados en la evaluación son debidamente documentados e informados detalladamente, incluyendo su versión digital, estableciéndose una numeración específica para cada versión. Cualquier modificación del modelo y/o de su correspondiente código es reportada en el informe respectivo, dejando constancia de las versiones que se emplearon hasta la fecha en que se emite el informe y definiendo específicamente la versión que se empleará en éste, para fines de revisiones posteriores. El código MAE722, fueron compilados en "macOS Big Sur Versión 11,4" y en "ADMB Versión 12,2". 
+El modelo de la dinámica poblacional fue programado en la plataforma AD Model Builder [@Fournier2012]. Todos los códigos fuente y datos empleados en la evaluación son debidamente documentados e informados detalladamente, incluyendo su versión digital, estableciéndose una numeración específica para cada versión. Cualquier modificación del modelo y/o de su correspondiente código es reportada en el informe respectivo, dejando constancia de las versiones que se emplearon hasta la fecha en que se emite el informe y definiendo específicamente la versión que se empleará en éste, para fines de revisiones posteriores. El código MAE723, fueron compilados en "macOS Big Sur Versión 11,4" y en "ADMB Versión 12,2". 
 
 \pagebreak
  
@@ -2726,7 +2634,7 @@ fig9(anos=years,pobs=pPobs,ppred=pPpred,title="Crucero de Otoño",panel="")
 
 \quad
 
-En la asesoría actual (2023_Hito 2) se comparan los resultados de los principales indicadores de estatus del modelo base con versiones anteriores (2022_Hito 1, 2022_Hito 3, 2022_Hito 2, 2022_Hito 1, 2021_Hito 3, 2021_Hito 2) para evaluar la consistencia de la evaluación presente (\textbf{Figura \ref{Fig28a}}). En general, existe consistencia en los resultados, en las asesorías de marzo se genera la mayor incertidumbre producto de la incompletitud de datos en este hito de revisión. \vspace{-0.4cm}
+En la asesoría actual (Hito 3) se comparan los resultados de los principales indicadores de estatus del modelo base con versiones anteriores (Hito_2 (2023), Hito 1 (2022), Hito 3 (2022), Hito 2 (2022), Hito 1 (2021)) para evaluar la consistencia de la evaluación presente (\textbf{Figura \ref{Fig28a}}). En general, existe consistencia en los resultados, en las asesorías de marzo se genera la mayor incertidumbre producto de la incompletitud de datos en este hito de revisión. \vspace{-0.4cm}
 
 ```{r fig.cap="\\label{Fig28a}Comparación con asesorías anteriores del reclutamiento, biomasa desovante y mortalidad por pesca ($F año^{-1}$) de la anchoveta centro-sur. Los años en el eje x corresponden a año biológico.", fig.height=7, fig.width=7}
 Rdata_RetroHist<-here(dir.Rdata,"RetrosHist_Hito 3.RData")
@@ -2818,11 +2726,7 @@ BDlast_historico<-1-(BD[nyears]/BDprom_historico)
 
 ```
 
-La \textbf{Figura \ref{Fig30}} y la \textbf{Tabla \ref{Tab17}} muestran los cambios que ha experimentado anchoveta en sus tendencias poblacionales en un período de `r nyears` años (`r yearsbiol[1]` 1996/97 - `r yearsbiol[nyears]` ). El análisis respecto a la media histórica de los indicadores de estado y flujo ($R_{promedio}$ = `r formatC(round(Rprom_historico/1000,1),decimal.mark = ",")` mil millones de peces, $BT_{promedio}$ = `r formatC(round(BTprom_historico/1000,1),decimal.mark = ",")` mil t, $BD_{promedio}$ = `r formatC(round(BDprom_historico/1000,1),decimal.mark = ",")` mil t, $F_{mediana}$ = `r formatC(round(exp(median(Ft,na.rm = T)),2),decimal.mark = ",")`) permite identificar claramente dos ciclos con altos y bajos niveles de abundancia de una duración de 10 años aprox.
-
-El período de altos niveles de abundancia de anchoveta se registra desde el año `r yearsbiol[7]` hasta el año `r yearsbiol[13]` con valores sobre el promedio histórico ($R_{alto}$ = `r formatC(round(Rprom_2002_2008/1000,1),decimal.mark = ",")` mil millones de peces, $BT_{alto}$ = `r formatC(round(BTprom_2002_2008/1000000,2),decimal.mark = ",")` millones de t, $BD_{alto}$ = `r formatC(round(BDprom_2002_2008/1000,1),decimal.mark = ",")` mil t). Los niveles bajo el promedio histórico se registran desde el año `r yearsbiol[14]` hasta el `r yearsbiol[22]` ($R_{bajo}$ = `r formatC(round(Rprom_2009_2017/1000,1),decimal.mark = ",")` mil millones de peces, $BT_{bajo}$ = `r formatC(round(BTprom_2009_2017/1000,1),decimal.mark = ",")` mil t., $BD_{bajo}$ = `r formatC(round(BDprom_2009_2017/1000,1),decimal.mark = ",")` mil t).
-
-Los mayores niveles de mortalidad por pesca se registraron durante el período de baja abundancia ($F > F_{mediana}$) debido a los bajos rendimientos. A partir del año `r yearsbiol[20]`, se observa el inicio de un nuevo ciclo con tendencia positiva generada por la fuerza de la clase anual reclutada que se incorpora a la población y a los bajos niveles de mortalidad por pesca ($F < F_{mediana}$). El incremento de los reclutamientos `r yearsbiol[23] #2018/19` y `r yearsbiol[24] #2019/20` , la disminución de la mortalidad por pesca 2/3 por debajo de M (M=0,7 año^-1^) y el incremento de la biomasa total y desovante `r yearsbiol[24] #2019/20` permiten la recuperación de anchoveta centro-sur para los cuatro últimos años de la serie.
+La \textbf{Figura \ref{Fig30}} y la \textbf{Tabla \ref{t3_var}} muestran los cambios que ha experimentado anchoveta en sus tendencias poblacionales en un período de `r nyears` años (`r yearsbiol[1]` - `r yearsbiol[nyears]` ). El análisis respecto a la media histórica de los indicadores de estado y flujo ($R_{promedio}$ = `r formatC(round(Rprom_historico/1000,1),decimal.mark = ",")` mil millones de peces, $BT_{promedio}$ = `r formatC(round(BTprom_historico/1000,1),decimal.mark = ",")` mil t, $BD_{promedio}$ = `r formatC(round(BDprom_historico/1000,1),decimal.mark = ",")` mil t, $F_{mediana}$ = `r formatC(round(exp(median(Ft,na.rm = T)),2),decimal.mark = ",")`) permite identificar claramente dos ciclos con altos y bajos niveles de abundancia de una duración de 10 años aprox.  El período de altos niveles de abundancia de anchoveta se registra desde el año `r yearsbiol[7]` hasta el año `r yearsbiol[13]` con valores sobre el promedio histórico ($R_{alto}$ = `r formatC(round(Rprom_2002_2008/1000,1),decimal.mark = ",")` mil millones de peces, $BT_{alto}$ = `r formatC(round(BTprom_2002_2008/1000000,2),decimal.mark = ",")` millones de t, $BD_{alto}$ = `r formatC(round(BDprom_2002_2008/1000,1),decimal.mark = ",")` mil t). Los niveles bajo el promedio histórico se registran desde el año `r yearsbiol[14]` hasta el `r yearsbiol[22]` ($R_{bajo}$ = `r formatC(round(Rprom_2009_2017/1000,1),decimal.mark = ",")` mil millones de peces, $BT_{bajo}$ = `r formatC(round(BTprom_2009_2017/1000,1),decimal.mark = ",")` mil t., $BD_{bajo}$ = `r formatC(round(BDprom_2009_2017/1000,1),decimal.mark = ",")` mil t). Los mayores niveles de mortalidad por pesca se registraron durante el período de baja abundancia ($F > F_{mediana}$) debido a los bajos rendimientos. A partir del año `r yearsbiol[20]`, se observa el inicio de un nuevo ciclo con tendencia positiva generada por la fuerza de la clase anual reclutada que se incorpora a la población y a los bajos niveles de mortalidad por pesca ($F < F_{mediana}$). El incremento de los reclutamientos `r yearsbiol[23] #2018/19` y `r yearsbiol[24] #2019/20` , la disminución de la mortalidad por pesca 2/3 por debajo de M (M=0,7 año^-1^) y el incremento de la biomasa total y desovante `r yearsbiol[24] #2019/20` permiten la recuperación de anchoveta centro-sur para los cuatro últimos años de la serie. La actualización realizada con información completa (Hito 3) indica una disminución del reclutamiento 2023, respecto a la asesoría previa (Hito 2) debido a la baja proporción de reclutas registradas por la flota en el último año actualizado.
 
 \newpage
 
@@ -2844,7 +2748,7 @@ patchVar
   biomasa total (t), reclutamientos (\\#) y  mortalidad por pesca (año-1)  
   estimadas en las asesorías de septiembre 2022 (Hito 1), marzo 2023 (Hito 2) y julio 2023 (Hito 3). "
 
-tb3_H3("\\label{t3}",Rdata_H1,Rdata_H2,Rdata_H3,caption1)
+tb3_H3("\\label{t3_var}",Rdata_H1,Rdata_H2,Rdata_H3,caption1)
 ```
 \end{landscape}
 \newpage
@@ -2932,7 +2836,11 @@ fig16(Rdata_H3,Fspr,BDspr)
 
 ### Estado de explotación
 
-Los resultados de este estudio muestran que entre los años 1996/97 y 2000/01 el stock de anchoveta centro-sur se encontraba sobre-explotado con biomasas por debajo del objetivo de manejo ($BD < BD_{RMS}$). A partir del 2001/02 se incrementan los niveles de biomasa desovante, permitiendo que el stock transite y se mantenga en una condición de plena-explotación hasta el 2007/08. No obstante, los niveles de reclutamiento para el año 2008 se reducen drásticamente generando niveles de biomasa desovante por debajo del promedio histórico para el 2008/09. Debido a la falla en los reclutamientos, desde el año 2009/10 la anchoveta de la zona centro-sur cambia drásticamente su estatus a una condición de agotamiento y/o colapso, manteniéndose en esa condición durante 8 años (2009/10 al 2016/17). A partir del año 2017/18 se manifiesta una recuperación del stock, transitando de la zona de colapso a la zona de sobre-explotación los años 2017/18 y 2018/19 y de plena-explotación los últimos 4 años de la serie histórica. En términos de los niveles de mortalidad por pesca (Ft año^-1^), en general, se ha mantenido históricamente por sobre el nivel objetivo de referencia $F_{RMS}$, no obstante, a partir del año 2016/17, los niveles de Ft estuvieron bajo el objetivo de manejo (\textbf{Figura \ref{Fig34}} y \textbf{Tabla \ref{Tab19}}). Respecto a la condición actual de anchoveta centro-sur, los resultados indican una recuperación del estatus generada por el incremento de los reclutamientos a partir del 2018/19, la disminución de la mortalidad por pesca por debajo del objetivo de manejo ($F<F_{RMS}$) y 2/3 por debajo de M (M=0,7 año^-1^) y el incremento de la biomasa total y desovante de los últimos 4 años de la serie histórica. Por lo tanto, la anchoveta centro-sur se encuentra en una condición de *plena-explotación* con una probabilidad de sobre-explotación del `r formatC(round(pc*100,2),decimal.mark = ",")`% y `r formatC(round(pd*100,2),decimal.mark = ",")`% de colapso (\textbf{Figura \ref{Fig35}} y \textbf{Tabla \ref{Tab21}}).
+```{r}
+load(Rdata_H3)
+```
+
+Los resultados de este estudio muestran que entre los años 1996/97 y 2000/01 el stock de anchoveta centro-sur se encontraba sobre-explotado con biomasas por debajo del objetivo de manejo ($BD < BD_{RMS}$). A partir del 2001/02 se incrementan los niveles de biomasa desovante, permitiendo que el stock transite y se mantenga en una condición de plena-explotación hasta el 2007/08. No obstante, los niveles de reclutamiento para el año 2008 se reducen drásticamente generando niveles de biomasa desovante por debajo del promedio histórico para el 2008/09. Debido a la falla en los reclutamientos, desde el año 2009/10 la anchoveta de la zona centro-sur cambia drásticamente su estatus a una condición de agotamiento y/o colapso, manteniéndose en esa condición durante 8 años (2009/10 al 2016/17). A partir del año 2017/18 se manifiesta una recuperación del stock, transitando de la zona de colapso a la zona de sobre-explotación los años 2017/18 y 2018/19 y de plena-explotación los últimos 4 años de la serie histórica. En términos de los niveles de mortalidad por pesca (Ft año^-1^), en general, se ha mantenido históricamente por sobre el nivel objetivo de referencia $F_{RMS}$, no obstante, a partir del año 2016/17, los niveles de Ft estuvieron bajo el objetivo de manejo (\textbf{Figura \ref{Fig34}} y \textbf{Tabla \ref{Tab19}}). Respecto a la condición actual de anchoveta centro-sur, los resultados indican una recuperación del estatus generada por el incremento de los reclutamientos a partir del 2018/19, la disminución de la mortalidad por pesca por debajo del objetivo de manejo ($F<F_{RMS}$) y 2/3 por debajo de M (M=0,7 año^-1^) y el incremento de la biomasa total y desovante de los últimos 4 años de la serie histórica. Por lo tanto, la anchoveta centro-sur se encuentra en una condición de *plena-explotación* con una probabilidad de sobre-explotación del `r formatC(round(pc*100,1),decimal.mark = ",")`% y `r formatC(round(pd*100,2),decimal.mark = ",")`% de colapso (\textbf{Figura \ref{Fig35}} y \textbf{Tabla \ref{Tab21}}).
 
 ```{r Fig34,fig.cap="\\label{Fig34}a) Razón $BD/BD_{RMS}$, b) la distribución de probabilidad de $BD_{last}/BD_{RMS}$, c) razón $F/F_{RMS}$ y d) la distribución de probabilidad $F_{last}/F_{RMS}$. El area sombreada corresponde al intervalo de confianza (IC)",fig.height=6.5,fig.width=8}
 
@@ -3042,7 +2950,7 @@ tb5("\\label{Tab21}",pbrs,especie,caption1)
 
 *"Determinar niveles de Captura Biológicamente Aceptable (CBA) que lleven y/o mantenga la pesquería en torno al Rendimiento Máximo Sostenible (RMS), a partir de un análisis de riesgo en condiciones de incertidumbre de no alcanzar los objetivos de conservación y sostenibilidad conforme lo establece la LGPA y contenidos en el Plan de Manejo y/o en el Programa de Recuperación respectivo, según corresponda."*
 
-### Proyección del stock por hito de manejo
+### Proyección del stock años biológicos 2022/23 y 2023/24 por hito de manejo
 
 ```{r}
 # Se lee Rdata proyección Hito 1
@@ -3055,9 +2963,13 @@ yearsp2H1<-years[nyears]+1 # primer semestre (primer año calendario) y segundo 
 yearsp3H1<-years[nyears]+2 # primer semestre (segundo año calendario)
 
 #valores para cada escenarios de reclutamiento Hito 1
-Rs1H1<-formatC(round(Rs1/1000,1),decimal.mark = ",") 
-Rs2H1<-formatC(round(Rs2/1000,1),decimal.mark = ",")
-Rs3H1<-formatC(round(Rs3/1000,1),decimal.mark = ",")
+Rs1H1<-formatC(round(Rs1/1000,0),decimal.mark = ",") 
+Rs2H1<-formatC(round(Rs2/1000,0),decimal.mark = ",")
+Rs3H1<-formatC(round(Rs3/1000,0),decimal.mark = ",")
+
+bds1H1<-formatC(round(bds1[1]/1000,1),decimal.mark = ",")
+bds2H1<-formatC(round(bds2[1]/1000,1),decimal.mark = ",")
+bds3H1<-formatC(round(bds3[1]/1000,1),decimal.mark = ",")
 #=================================================================================================
 # Se lee Rdata proyección Hito 2
 Rdata_proy_Hito2<-here("Rdata","Datos_Proy_Hito_2.RData")
@@ -3068,11 +2980,17 @@ yearsp1H2<-years[nyears]   # primer año calendario proyección (segundo semestr
 yearsp2H2<-years[nyears]+1 # primer semestre (primer año calendario) y segundo semestre (segundo año calendario)
 yearsp3H2<-years[nyears]+2 # primer semestre (segundo año calendario)
 
-#valores para cada escenarios de reclutamiento Hito 2
-Rs1H2<-formatC(round(Rs1/1000,1),decimal.mark = ",") 
-Rs2H2<-formatC(round(Rs2/1000,1),decimal.mark = ",")
-Rs3H2<-formatC(round(Rs3/1000,1),decimal.mark = ",")
+RlastH2<-formatC(round(Rtp[nyears]/1000,0),decimal.mark = ",")  
+bdH2<-formatC(round(bds0s/1000,2),decimal.mark = ",")
 
+#valores para cada escenarios de reclutamiento Hito 2
+Rs1H2<-formatC(round(Rs1/1000,0),decimal.mark = ",") 
+Rs2H2<-formatC(round(Rs2/1000,0),decimal.mark = ",")
+Rs3H2<-formatC(round(Rs3/1000,0),decimal.mark = ",")
+
+bds1H2<-formatC(round(bds1[1]/1000,1),decimal.mark = ",")
+bds2H2<-formatC(round(bds2[1]/1000,1),decimal.mark = ",")
+bds3H2<-formatC(round(bds3[1]/1000,1),decimal.mark = ",")
 #=================================================================================================
 # Se lee Rdata proyección Hito 3
 Rdata_proy_Hito3<-here("Rdata","Datos_Proy_Hito_3.RData")
@@ -3083,43 +3001,143 @@ yearsp1H3<-years[nyears]   # primer año calendario proyección (segundo semestr
 yearsp2H3<-years[nyears]+1 # primer semestre (primer año calendario) y segundo semestre (segundo año calendario)
 yearsp3H3<-years[nyears]+2 # primer semestre (segundo año calendario)
 
+RlastH3<-formatC(round(Rtp[nyears]/1000,0),decimal.mark = ",") 
+bdH3<-formatC(round(bds0s/1000,2),decimal.mark = ",")
 #valores para cada escenarios de reclutamiento Hito 3
-Rs1H3<-formatC(round(Rs1/1000,1),decimal.mark = ",") 
-Rs2H3<-formatC(round(Rs2/1000,1),decimal.mark = ",")
-Rs3H3<-formatC(round(Rs3/1000,1),decimal.mark = ",")
+Rs1H3<-formatC(round(Rs1/1000,0),decimal.mark = ",") 
+Rs2H3<-formatC(round(Rs2/1000,0),decimal.mark = ",")
+Rs3H3<-formatC(round(Rs3/1000,0),decimal.mark = ",")
+
+bds1H3<-formatC(round(bds1[1]/1000,1),decimal.mark = ",")
+bds2H3<-formatC(round(bds2[1]/1000,1),decimal.mark = ",")
+bds3H3<-formatC(round(bds3[1]/1000,1),decimal.mark = ",")
+
 
 ```
 
-Para el hito 1 la proyección de la población se realizó 2 años biológicos hacia el futuro (julio `r yearsp1H1` - junio `r yearsp2H1` y julio `r yearsp2H1` - junio `r yearsp3H1`) en base a tres escenarios de reclutamiento: a) un escenario favorable que consiste en el reclutamiento promedio del período `r escReclH1[1]` (`r Rs1H1` mil millones de ind.), b) un escenario que representa el reclutamiento promedio histórico (`r Rs2H1` mil millones de ind.) y c) un escenario que representa el período reciente entre el `r escReclH1[3]` (`r Rs3H1` mil millones de ind.) (\textbf{Figura \ref{Fig44a}}), con una mortalidad por pesca en torno al $F_{RMS}$ y pesos medios igual al promedio de los últimos 5 años. 
+
+#### Supuestos de proyección
+\quad
+
+
+Para el hito 1 la proyección de la población se realizó 2 años biológicos hacia el futuro, mientras que para los hitos 2 y 3 sólo se proyecta 1 año biológico en base a escenarios de reclutamiento, mortalidad por pesca en torno al $F_{RMS}=0,3$, pesos medios igual al promedio de los últimos 5 años y proporción semestral de la captura en año biológico. En relación a los escenarios de reclutamiento, el reclutamiento 2023 actualizado en el hito 2 y 3 (`r RlastH2` y `r RlastH3` mil millones de peces, respectivamente)  estuvieron cercanas al escenario de reclutamiento alto proyectado en el hito 1 (`r escReclH1[1]`= `r Rs1H1` mil millones de peces).  El reclutamiento  proyectado hacia el año 2024 no varió significativamente entre hitos (\textbf{Figura \ref{Fig44a1}}). Los pesos medios actualizados en el hito 3 son mayores a los utilizados en el hito 1 y 2 (\textbf{Figura \ref{Fig44a2}}). 
 
 
 
-Las \textbf{Figuras \ref{Fig44a}} y \textbf{Tabla \ref{Tab25s}} indican que, considerando como referencia el escenario de reclutamiento recientes (`r escReclH1[3]`), en términos de biomasa desovante proyectada al `r yearbiol_proy[1] #2022/2023` (`r formatC(round(bds3[1]/1000,1),decimal.mark = ",")` mil t) se observa una disminución del `r formatC(round((1-bds3[1]/bds0s)*100,1),decimal.mark = ",")`% respecto al año previo (`r formatC(round(bds0s/1000,2),decimal.mark = ",")` mil t), de este modo la probabilidad de sobreexplotación aumenta a un `r formatC(round(pc3*100,1),decimal.mark = ",")`% para el año biológico `r yearbiol_proy[1] #2022/2023`. 
 
+```{r fig.height=3,fig.width=5,fig.cap="\\label{Fig44a1} Diferencia entre escenarios de reclutamiento proyectado año 2024 estimados en los tres hitos de manejo"}
 
-Mientras que la biomasa desovante proyectada hacia el `r yearbiol_proy[2] #2023/2024` depende del reclutamiento proyectado hacia el `r years[nyears]+1 #2023` y `r years[nyears]+2 #2024`, de este modo, la probabilidad de sobreexplotación puede aumentar hasta un `r formatC(round(pc32*100,1),decimal.mark = ",")`% si los reclutamientos futuros retornan a los niveles promedios `r years[14] #2010` - `r years[nyears] #2022`, o pueden disminuir a un `r formatC(round(pc12*100,1),decimal.mark = ",")`% si los reclutamientos se encuentran en torno al promedio de los años `r years[1] #1997` - `r years[13] #2009` (\textbf{Tabla \ref{Tab25s}} y \textbf{Figura \ref{Fig44b}}). 
+recproy<-data.frame(matrix(c(Rs1H1,Rs1H2,Rs1H3,Rs2H1,Rs2H2,Rs2H3,Rs3H1,Rs3H2,Rs3H3),ncol=3)) %>% mutate(Hitos=c("Hito 1","Hito 2","Hito 3"),proyyear2=2024)
+colnames(recproy)<-c("R_1997-2009","R_Histórico","R_2010-2023","Hitos","yearProy")
+barplot<-recproy %>% melt(id.var=c("yearProy","Hitos"))
 
+ggplot(barplot,aes(x=factor(variable) ,y=as.numeric(value),fill=Hitos))+
+  geom_col(position = "dodge")+
+  ylab("Reclutamiento (mil millones de peces)")+
+  xlab("Escenarios de reclutamiento")+
+  ggtitle("Reclutamiento proyectado 2024")+
+    theme_bw(base_size=8) +
+    theme(plot.title = element_text(hjust = 0.5))
 
-La \textbf{Tabla \ref{Tab26s}} muestra la captura proyectada para los años biológicos `r yearbiol_proy[1] #2022/2023` y `r yearbiol_proy[2] #2023/2024` considerando una mortalidad por pesca igual al $F_{RMS}$, con sus respectivos escenarios de reclutamientos. 
-
-
-El cálculo de la Captura al RMS ($C_{RMS}$) para el año calendario `r years[nyears]+1 #2023` se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería que a la fecha se asume 70% para el primer semestre y 30% para el segundo semestre. 
-
-De este modo, la captura al RMS para el año biológico `r yearbiol_proy[1] #2022/2023` puede variar según el escenario de reclutamiento entre `r formatC(round(cs1[1]/1000,0),decimal.mark = ",")` mil t a `r formatC(round(cs3[1]/1000,0),decimal.mark = ",")` mil t.
-
-Si el 70% de la captura `r yearbiol_proy[1] #2022/2023` se realiza durante el primer semestre `r years[nyears]+1 #2023`, la captura puede variar entre `r formatC(round(cs1[1]*0.7/1000,0),decimal.mark = ",")` mil t a `r formatC(round(cs3[1]*0.7/1000,0),decimal.mark = ",")` mil t, dependiendo del reclutamiento `r years[nyears]+1 #2023`. 
-
-
-
-El aporte del reclutamiento en la estimación de captura `r yearbiol_proy[1] #2022/2023` es de un `r formatC(C1eryearR1*100,decimal.mark = ",")`% para un escenario de reclutamiento alto (`r escRecl2[1]`) , de un `r formatC(C1eryearR2*100,decimal.mark = ",")`% para un escenario de reclutamientos promedio histórico y de un `r formatC(C1eryearR3*100,decimal.mark = ",")`% para un escenario de reclutamiento bajos (`r escRecl2[3]`) (\textbf{Figura \ref{Fig44cs}}).
-
-
-En el caso de la captura proyectada para el año `r yearbiol_proy[2] #2023/2024`, los escenarios de reclutamientos tienen un efecto en el grupo de edad 1, un `r formatC(C1eryearR12a*100,decimal.mark = ",")`% para un escenario de reclutamiento alto (`r escRecl2[1]`), de un
-`r formatC(C1eryearR22a*100,decimal.mark = ",")`% para un escenario de reclutamientos promedio histórico y de un `r formatC(C1eryearR32a*100,decimal.mark = ",")`% para un escenario de reclutamiento bajos (`r escRecl2[3]`), por lo tanto, es una estimación con mayor incertidumbre (\textbf{Figura \ref{Fig44cs}}).
+```
 
 \newpage
 
-```{r fig.height=10,fig.width=9,fig.cap="\\label{Fig44a}Proyección de dos años biológicos (2022/2023 y 2023/2024) de la biomasa desovante, razón $BD/BD_{RMS}$ y capturas en base a tres escenarios de reclutamiento proyectado. Asesoría de septiembre 2022 (Hito 1)."}
+
+```{r fig.height=3,fig.width=5,fig.cap="\\label{Fig44a2} Diferencia entre el supuesto de pesos medios utilizados en la proyección de los tres hitos de manejo"}
+load(Rdata_H1)
+pesoprom5H1<-data.frame(edad=0:4,peso=dat$Wmedp_3,Hitos=hito)
+load(Rdata_H2)
+pesoprom5H2<-data.frame(edad=0:4,peso=dat$Wmedp_3,Hitos=hito)
+load(Rdata_H3)
+pesoprom5H3<-data.frame(edad=0:4,peso=dat$Wmedp_3,Hitos=hito)
+
+pesoprom5<-rbind(pesoprom5H1,pesoprom5H2,pesoprom5H3)
+
+ggplot(pesoprom5,aes(x=edad,y=peso,color=Hitos,linetype=Hitos))+geom_line()+
+  ylab("Pesos medios (grs)")+
+  xlab("Edad")+
+  ggtitle("Pesos medios = promedio de los últimos 5 años")+
+    theme_bw(base_size=8) +
+    theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+
+Respecto al supuesto de proporción de captura 2022/23, para el primer hito se asume que la captura del segundo semestre 2022 es equivalente a un 30% de la captura proyectada 2022/23, en el hito 2 y 3 esta proporción se actualiza con el desembarque del segundo semestre 2022 igual a 25 mil toneladas (hito 2) y 27 mil t (hito 3), lo cual equivale a una proporción del 10% para el hito 2 y de un 15% para el hito 3 (\textbf{Figura \ref{Fig44a3}}). La proporción del segundo semestre 2023 se asume en un 30% de la captura proyectada al año biológico 2023/24 para los tres hitos de manejo.
+
+```{r fig.height=4,fig.width=8,fig.cap="\\label{Fig44a3} Diferencia de la proporción semestral de la captura del año biológico 2022/23 actualizado en  el hito 2 y 3 con información del desembarque del segundo semestre 2022"}
+#pie(c(0.3,0.7),labels=c("segundo semestre = 30%","primer semestre = 70%"))
+
+dataH1<-data.frame(value=c(0.3,0.7),group=c("Segundo semestre","Primer semestre"),ypos=c("30%","70%"))
+dataH2<-data.frame(value=c(25/240,1-(25/240)),group=c("Segundo semestre","Primer semestre"),ypos=c("10%","90%"))
+dataH3<-data.frame(value=c(27/183,1-(27/183)),group=c("Segundo semestre","Primer semestre"),ypos=c("15%","85%"))
+
+p1<-ggplot(dataH1, aes(x="", y=value, fill=group)) +
+  geom_bar(stat="identity", width=1, color="white") +
+  coord_polar("y", start=0) +
+  theme_void() +
+  geom_text(aes(y = value-0.1, label = ypos), color = "white", size=6) +
+  ggtitle("Hito 1\nCaptura 2022/23")+labs(fill="Proporción\nsemestral")+
+   theme(plot.title = element_text(hjust = 0.5))
+
+p2<-ggplot(dataH2, aes(x="", y=value, fill=group)) +
+  geom_bar(stat="identity", width=1, color="white") +
+  coord_polar("y", start=0) +
+  theme_void() +
+  geom_text(aes(y = value-0.1, label = ypos), color = "white", size=6) +
+  ggtitle("Hito 2\nCaptura  2022/23")+labs(fill="Proporción\nsemestral")+
+   theme(plot.title = element_text(hjust = 0.5))
+
+p3<-ggplot(dataH3, aes(x="", y=value, fill=group)) +
+  geom_bar(stat="identity", width=1, color="white") +
+  coord_polar("y", start=0) +
+  theme_void() +
+  geom_text(aes(y = value-0.1, label = ypos), color = "white", size=6) +
+  ggtitle("Hito 3\nCaptura  2022/23")+labs(fill="Proporción\nsemestral")+
+   theme(plot.title = element_text(hjust = 0.5))
+
+ ggarrange(p1,p2,p3, ncol=3,  common.legend= TRUE)
+```
+
+
+\newpage
+
+#### Estatus proyectado
+\quad
+
+La biomasa desovante 2022/23 estimada en base a los supuestos de proyección en el hito 1 fue un **x% mayor** a la actualizada en el hito 2 y un **x% menor** a la actualiza en el hito 3. En el hito 1 se proyectaba un **xx%** de probabilidad de sobreexplotación, en la actualización con información preliminar del hito 2 esta probabilidad incrementa a un **xx%,** y luego disminuye  a un **xx%** en la actualización del hito 3 considerando información completa, manteniéndose en una condición de plena-explotación. 
+
+La biomasa desovante 2023/24  proyectada en el hito 2 y 3 es similar a la proyectada  en el hito 1 bajo el   escenario de reclutamiento recientes `r escRecl2[3]`, con una probabilidad de sobreexplotación estimada en  **xx%** en el hito 1, para luego disminuir a un **xx%** en el hito 2 y a un **xx%** en el hito 3 considerando información completa (\textbf{Tablas \ref{Tab25a} y \ref{Tab25b}} y \textbf{Figuras \ref{Fig44a} y \ref{Fig44b}}). 
+
+\vspace{1cm}
+
+```{r}
+caption1 <- "Proyección de la biomasa desovante hacia el año biológico 2022/23 y 2023/24 
+considerando tres escenarios de reclutamientos y mortalidad por pesca igual al $F_{RMS}$.
+Probabilidad de estar bajo $BD_{RMS}$ y sobre $F_{RMS}$ y la probabilidad de sobre-explotación y colapso."
+
+tb7_H1("\\label{Tab25s}",Rdata_proy_Hito1,escReclH1,especie,region,caption1)
+```
+
+\newpage
+
+```{r}
+caption1 <- "Estatus año 2022/23 actualizado en Hito 2 (marzo 2023) y 
+      Proyección de la biomasa desovante hacia el año biológico 2023/24,
+      considerando reclutamiento actualizado en Hito 2 y tres escenarios de reclutamientos promedio
+      ($R_{actual/proy}$) y mortalidad por pesca actual y proyectada ($F_{supuesto/proy}$) igual 
+      al $F_{RMS}$. Biomasa desovante objetivo ($BD_{RMS}$), actualizada en Hito 2 y 
+      proyectada ($BD_{actual/proy}$) la probabilidad 
+      de sobre-explotación y colapso."
+
+tb7_H3("\\label{Tab25j}",Rdata_H2,Rdata_H3,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
+```
+
+\newpage
+
+
+```{r fig.height=10,fig.width=9,fig.cap="\\label{Fig44a}Proyección de dos años biológicos (2022/2023 y 2023/2024) de la biomasa desovante, razón $BD/BD_{RMS}$ y capturas en base a tres escenarios de reclutamiento proyectado en los tres hitos de manejo."}
 
 escRecl_H1 <- c("R 1997-2009","R Histórico","R 2010-2022","Serie histórica")
 escRecl_H2y3 <- c("R 1997-2009","R Histórico","R 2010-2023","Serie histórica")
@@ -3137,7 +3155,7 @@ ggarrange(p1,p2,p3,ncol=1,nrow=3,common.legend=TRUE,legend='right')
 
 \begin{landscape}                                                                
                                                                  
-```{r fig.height=8,fig.width=10,fig.cap="\\label{Fig44b}Diagramas de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca mostrando el estatus de anchoveta centro-sur para el año previo 2020/21 (punto verde), año actual 2021/22 (punto y cruz naranjo) y años proyectados 2022/23 y 2023/24 (puntos rojos) bajo un escenario de reclutamiento promedio alto, reclutamiento promedio histórico, reclutamiento promedio reciente."}
+```{r fig.height=8,fig.width=10,fig.cap="\\label{Fig44b}Estatus proyectado en los tres hitos de manejo de anchoveta centro-sur para el año previo 2020/21 (punto verde), año actual 2021/22 (punto y cruz naranjo) y años proyectados 2022/23 y 2023/24 (puntos rojos) bajo un escenario de reclutamiento promedio alto, reclutamiento promedio histórico, reclutamiento promedio reciente."}
 par(mfrow=c(3,3),mar=c(2.5,3,2,1),cex.axis=1,cex.lab=1.1)
 # Estatus proyectado Hito 1
 fig21_anch(Rdata_H1,dir.0,carpetaCBA="CBA_Hito_1",escRecl_H1,op_escRecl=1)
@@ -3154,29 +3172,6 @@ fig21_anch_H2y3(Rdata_H3,dir.0,carpetaCBA="CBA_Hito_3",escRecl_H2y3,op_escRecl=3
 ```
 
 \end{landscape} 
-
-
-\newpage
-```{r}
-caption1 <- "Proyección de la biomasa desovante hacia el año biológico 2022/23 y 2023/24 
-considerando tres escenarios de reclutamientos y mortalidad por pesca igual al $F_{RMS}$.
-Probabilidad de estar bajo $BD_{RMS}$ y sobre $F_{RMS}$ y la probabilidad de sobre-explotación y colapso."
-
-tb7_H1("\\label{Tab25s}",Rdata_proy_Hito1,escReclH1,especie,region,caption1)
-```
-
-```{r}
-caption1 <- "Estatus año 2022/23 actualizado en Hito 2 (marzo 2023) y 
-      Proyección de la biomasa desovante hacia el año biológico 2023/24,
-      considerando reclutamiento actualizado en Hito 2 y tres escenarios de reclutamientos promedio
-      ($R_{actual/proy}$) y mortalidad por pesca actual y proyectada ($F_{supuesto/proy}$) igual 
-      al $F_{RMS}$. Biomasa desovante objetivo ($BD_{RMS}$), actualizada en Hito 2 y 
-      proyectada ($BD_{actual/proy}$) la probabilidad 
-      de sobre-explotación y colapso."
-
-tb7_H3("\\label{Tab25j}",Rdata_H2,Rdata_H3,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
-```
-
 \newpage
 
 
