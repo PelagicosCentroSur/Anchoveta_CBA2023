@@ -457,7 +457,7 @@ CreaDataProybase_HITO2Y3(dir.0,carpetaCBA="CBA_Hito_3",
 
 # RESUMEN EJECUTIVO {.unnumbered}
 
-El presente informe contiene la segunda actualización del estatus del año biológico 2022/23 y la Captura Biológicamente Aceptable (CBA) del año calendario 2023 para el stock de anchoveta en la Unidad de Pesquería Centro-Sur (UPCS) de Chile (Región de Valparaíso a Región de Los Lagos) basado en un modelo en escala biológica. El análisis es actualizado con la siguiente información: (1) Estadísticas de desembarques de SERNAPESCA corregidas por IFOP los años 1998 al 2001, correspondiente al período 1996/97-2021/22. (2) El porcentaje de descarte mantiene el criterio de aplicar el 2%. (3) Información de captura a la edad y pesos individuales a la edad, proveniente del "Programa de Seguimiento de las Principales Pesquerías Nacionales (Pesquerías Pelágicas)" desde 1996/97 al 2021/22. (4) Series de biomasas acústicas y composiciones de edad de los cruceros de verano (años 2000-2023) y otoño (años 2003-2022) provenientes del programa de cruceros IFOP sobre evaluación hidroacústica del reclutamiento de anchoveta entre las Regiones de Valparaíso y Los Lagos. (5) Publicaciones cientíﬁcas y técnicas relacionadas con los parámetros del ciclo de vida (mortalidad natural y madurez).
+El presente informe contiene la segunda actualización del estatus del año biológico 2022/23 y la Captura Biológicamente Aceptable (CBA) del año calendario 2023 para el stock de anchoveta en la Unidad de Pesquería Centro-Sur (UPCS) de Chile (Región de Valparaíso a Región de Los Lagos) basado en un modelo en escala biológica. El análisis es actualizado con la siguiente información: (1) Estadísticas de desembarques de SERNAPESCA corregidas por IFOP los años 1998 al 2001, correspondiente al período 1996/97-2022/23. (2) El porcentaje de descarte mantiene el criterio de aplicar el 2%. (3) Información de captura a la edad y pesos individuales a la edad, proveniente del "Programa de Seguimiento de las Principales Pesquerías Nacionales (Pesquerías Pelágicas)" desde 1996/97 al 2022/23. (4) Series de biomasas acústicas y composiciones de edad de los cruceros de verano (años 2000-2023) y otoño (años 2003-2023) provenientes del programa de cruceros IFOP sobre evaluación hidroacústica del reclutamiento de anchoveta entre las Regiones de Valparaíso y Los Lagos. (5) Publicaciones cientíﬁcas y técnicas relacionadas con los parámetros del ciclo de vida (mortalidad natural y madurez).
 
 En relación a los datos de entrada al modelo de evaluación de stock, se observa que entre los años 2009 y 2017 se registraron los niveles más bajos de biomasa acústica de verano con un valor promedio de 101 mil t. Sin embargo, el año 2018 se observó un primer incremento importante hasta 347 mil t, consolidándose en los últimos cuatro años (2020 - 2023), su máximo el año 2022 con poco más de 1 millon de toneladas, el valor más alto en más de una década. A enero de 2023, los altos valores de biomasa se mantienen sobre el millón de toneladas. Algo similar se observa en las tendencias de los cruceros de otoño, observándose una recuperación en la biomasa del stock desde el 2016, registrándose el año 2022 el nivel más alto de los últimos 15 años, en 1,4 millones de t. En relación a las capturas de anchoveta de las regiones de Valparaíso a Los Lagos, UPCS, su variación es consistente con los cambios en los niveles de biomasa estimados por los cruceros acústicos de verano y otoño. Entre los años 2011/12 y 2017/18 se registran los desembarques oficiales más bajos de la serie, en torno a 62 mil toneladas en promedio. Para el año 2019/20 a 160 mil t, un 15% mayor al año previo y para el año 2020/21 se incrementa a 209.5 mil t, un 31% mayor al año previo y un 96% mayor al promedio de los últimos 9 años (período 2011/12 - 2019/20). Finalmente, si bien para el año 2021/22 se registra una disminución del 2,9% respecto a lo registrado el año previo, para el año biológico actual (2022/23) se estima una captura total en torno a las 245 mil t.
 
@@ -471,7 +471,6 @@ probabilidad de colapso.
 escRecl2 <- c("$R_{1997-2009}$",
               "$R_{Histórico}$",
               "$R_{2010-2023}$")
-Rdata_proy_Hito3<-here("Rdata","Datos_Proy_Hito_3.RData")
   load(Rdata_proy_Hito3)
   
 ```
@@ -1165,7 +1164,7 @@ En relación a las capturas de anchoveta de las regiones de Valparaíso a Los La
 La pesquería de anchoveta está sustentada principalmente por la abundancia de los grupos de edad (GE) 1 y 2. A partir del `r years[21]` el GE 0 muestra una tendencia al incremento, sin embargo, para el periodo `r yearsbiol[25]`, `r yearsbiol[26]` y `r yearsbiol[27]`  su aporte a la abundancia total  está en torno al `r formatC(mean(pfobs[25:26,1])*100,decimal.mark = ",",digits = 2)`% . Respecto a los pesos medios, para el GE 0 se encuentra en torno a los `r formatC(mean(WmedF[,1]),decimal.mark = ",",digits = 2)`  grs, para el GE 1 en los `r formatC(mean(WmedF[,2]),decimal.mark = ",",digits = 2)` grs en promedio. Desde el año `r years[18]`  se observa un incremento en esta variable en todos los GE, excepto en los ejemplares de edad 0, tomando en cuenta una marcada disminución el año `r years[22]` (\textbf{Figura \ref{Fig19}}). 
 
 
-En relación a la información proveniente de los cruceros acústicos, la composición de edad registrada por el estudio de verano muestra que el GE 0 representa en torno al `r formatC(mean(pRobs[5:26,1])*100,decimal.mark = ",",digits = 2)`%   de la captura en número, no obstante, para los años `r years[25]`  y `r years[26]`  su aporte disminuye  al `r formatC(mean(pRobs[25:26,1])*100,decimal.mark = ",",digits = 2)`%, volviendo a incrementar para el último año de análisis, aportando un `r formatC(mean(pRobs[27,1])*100,decimal.mark = ",",digits = 2)`%. Por otra parte, el crucero de otoño muestra mayor variabilidad y un aporte del `r formatC(mean(pPobs[c(11,13:18,20:26),1])*100,decimal.mark = ",",digits = 2)`% en promedio del grupo de edad 0 (\textbf{Figura \ref{Fig21}}). 
+En relación a la información proveniente de los cruceros acústicos, la composición de edad registrada por el estudio de verano muestra que el GE 0 representa en torno al `r formatC(mean(pRobs[5:26,1])*100,decimal.mark = ",",digits = 2)`%   de la captura en número, no obstante, para los años `r years[25]`  y `r years[26]`  su aporte disminuye  al `r formatC(mean(pRobs[25:26,1])*100,decimal.mark = ",",digits = 2)`%, volviendo a incrementar para el último año de análisis, aportando un `r formatC(mean(pRobs[27,1])*100,decimal.mark = ",",digits = 2)`%. Por otra parte, el crucero de otoño muestra mayor variabilidad y un aporte del `r formatC(mean(pPobs[c(11,13:18,20:26),1])*100,decimal.mark = ",",digits = 2)`% en promedio del grupo de edad 0 (\textbf{Figura \ref{Fig21}}). En ANEXO I de este informe se presenta un análisis de sensibilidad a la actualización de datos de la flota y crucero de otoño 2023 para el hito 3.
 
 \vspace{0.3cm}
 
@@ -3106,32 +3105,29 @@ p3<-ggplot(dataH3, aes(x="", y=value, fill=group)) +
 #### Estatus proyectado
 \quad
 
-La biomasa desovante 2022/23 estimada en base a los supuestos de proyección en el hito 1 fue un **x% mayor** a la actualizada en el hito 2 y un **x% menor** a la actualiza en el hito 3. En el hito 1 se proyectaba un **xx%** de probabilidad de sobreexplotación, en la actualización con información preliminar del hito 2 esta probabilidad incrementa a un **xx%,** y luego disminuye  a un **xx%** en la actualización del hito 3 considerando información completa, manteniéndose en una condición de plena-explotación. 
+La biomasa desovante 2022/23 estimada en base a los supuestos de proyección en el hito 1 fue un 12% menor a la actualizada en el *hito 2* y un 17% menor a la actualiza en el *hito 3*. En el *hito 1* se proyectaba un 10% de probabilidad de sobreexplotación, en la actualización con información preliminar del hito 2 esta probabilidad disminuye a un 1%, y luego disminuye  a un 0% en la actualización del hito 3 considerando información completa, manteniéndose en una condición de plena-explotación. 
 
-La biomasa desovante 2023/24  proyectada en el hito 2 y 3 es similar a la proyectada  en el hito 1 bajo el   escenario de reclutamiento recientes `r escRecl2[3]`, con una probabilidad de sobreexplotación estimada en  **xx%** en el hito 1, para luego disminuir a un **xx%** en el hito 2 y a un **xx%** en el hito 3 considerando información completa (\textbf{Tablas \ref{Tab25a} y \ref{Tab25b}} y \textbf{Figuras \ref{Fig44a} y \ref{Fig44b}}). 
+La biomasa desovante 2023/24  proyectada en el hito 2 y 3 aumenta entre un 17% -12% respecto a la proyectada  en el hito 1 bajo el   escenario de reclutamiento altos `r escRecl2[1]`, con una baja probabilidad de sobreexplotación estimada en  2% en el hito 1, 6% en el hito 2 y 3% en el hito 3 considerando información completa (\textbf{Tablas \ref{Tab25a} y \ref{Tab25b}} y \textbf{Figuras \ref{Fig44a} y \ref{Fig44b}}). 
 
 \vspace{1cm}
 
 ```{r}
 caption1 <- "Proyección de la biomasa desovante hacia el año biológico 2022/23 y 2023/24 
-considerando tres escenarios de reclutamientos y mortalidad por pesca igual al $F_{RMS}$.
-Probabilidad de estar bajo $BD_{RMS}$ y sobre $F_{RMS}$ y la probabilidad de sobre-explotación y colapso."
+considerando tres escenarios de reclutamientos y mortalidad por pesca igual al $F_{RMS}$ correspondiente al hito 1. Probabilidad de estar bajo $BD_{RMS}$ y sobre $F_{RMS}$ y la probabilidad de sobre-explotación y colapso."
 
-tb7_H1("\\label{Tab25s}",Rdata_proy_Hito1,escReclH1,especie,region,caption1)
+tb7_H1("\\label{Tab25a}",Rdata_proy_Hito1,escReclH1,especie,region,caption1)
 ```
 
 \newpage
 
 ```{r}
-caption1 <- "Estatus año 2022/23 actualizado en Hito 2 (marzo 2023) y 
+caption1 <- "Estatus año 2022/23 actualizado en Hito 2 e Hito 3 y
       Proyección de la biomasa desovante hacia el año biológico 2023/24,
-      considerando reclutamiento actualizado en Hito 2 y tres escenarios de reclutamientos promedio
-      ($R_{actual/proy}$) y mortalidad por pesca actual y proyectada ($F_{supuesto/proy}$) igual 
-      al $F_{RMS}$. Biomasa desovante objetivo ($BD_{RMS}$), actualizada en Hito 2 y 
-      proyectada ($BD_{actual/proy}$) la probabilidad 
-      de sobre-explotación y colapso."
+      considerando reclutamiento actualizado en Hito 2 e Hito 3  y tres escenarios de reclutamientos promedio ($R_{actual/proy}$) y mortalidad por pesca actual y proyectada ($F_{supuesto/proy}$) igual 
+      al $F_{RMS}$. Biomasa desovante objetivo ($BD_{RMS}$), actualizada en Hito 2 e Hito 3 y 
+      proyectada ($BD_{actual/proy}$) la probabilidad de sobre-explotación y colapso."
 
-tb7_H3("\\label{Tab25j}",Rdata_H2,Rdata_H3,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
+tb7_H3("\\label{Tab25b}",Rdata_H2,Rdata_H3,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
 ```
 
 \newpage
@@ -3174,22 +3170,48 @@ fig21_anch_H2y3(Rdata_H3,dir.0,carpetaCBA="CBA_Hito_3",escRecl_H2y3,op_escRecl=3
 \end{landscape} 
 \newpage
 
+#### Capturas proyectadas
+\quad
 
-```{r}
-  caption1 <-"Proyección de la captura estimada para los años biológicos 
-      2022/23 y 2023/24 considerando una mortalidad por pesca igual al $F_{RMS}$, 
-      con sus respectivos escenarios de reclutamientos. El cálculo de la Captura 
-      para el año calendario 2023 se obtiene como el promedio ponderado según la 
-      estacionalidad semestral de la pesquería que a la fecha se asume 70\\% para el primer 
-      semestre y 30\\% para el segundo semestre."
-#tb8_H1("\\label{Tab26s}",Rdata_proy_Hito1,escReclH1,especie,region,caption1)
-#tb8_H2("\\label{Tab26j}",Rdata_proy_Hito2,escReclH2,especie,region,caption1) #para hito 2
-tb8_H3("\\label{Tab26j}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
-```
+**a) Captura 2022/23:**
+
+
+La captura 2022/23 proyectada en el *hito 1* bajo un escenarios de reclutamientos histórico y mortalidad por pesca igual al $F_{RMS}=0,46$  fue de 210 mil toneladas con un 4% de aporte del reclutamiento. La captura 2022/23 actualizada en el *hito 2* con información del crucero de verano  y supuesto de mortalidad por pesca igual al  $F_{RMS}=0,47$  se estima en 240 mil toneladas con un aporte del 6% del reclutamiento 2023. La captura 2022/23 actualizada en el *hito 3* con información de la flota (desembarque del segundo semestre 2022 y primer semestre 2023) equivalente a un $F_{2022/23}=0,34$ (28% menor al $F_{RMS}$), se estima en 183 mil toneladas, con un aporte del 5% del reclutamiento actualizado (\textbf{Tabla  \ref{Tab26b1} y Figura \ref{Fig44c1}}). 
+
+*Captura  segundo semestre 2022:* Para el *hito 1* se asume igual al 30% de la captura 2022/23, esto es, 63 mil toneladas para el escenario histórico. No obstante, el desembarque oficial del segundo semestre 2022 actualizado en el *hito 2*  fue  de 25 mil toneladas y 27 mil t en el *hito 3*, un 57% menor al supuesto del *hito 1* (\textbf{Tabla  \ref{Tab26b1}}).
+
+*Captura  primer semestre 2023:* Para el *hito 1* se asume igual al 70% de la captura 2022/23, esto es, 147 mil toneladas para el escenario histórico y para el *hito 2* se estima en 216 mil toneladas. No obstante, el desembarque oficial del primer semestre 2023 actualizado en el *hito 3* fue de 156 mil toneladas. Sin embargo, estos valores fueron corregidos en los hitos 2 y 3, como se señala a continuación: Mediante la Ley Nº 21.525 se autorizó que el remanente de cuota 2022 igual a 63 mil toneladas puede ser capturado durante el primer semestre 2023, esto significa que la captura 2022/23 actualizada en el *hito 2* aumentaría a 275 mil toneladas, un 16% sobre la captura al RMS. Para evitar el riesgo de sobrepesca, en la primera sesión 2023 del CCT-PP se acordó descontar el remanente de cuota 2022 a la Captura 2022/23, específicamente a la captura del primer semestre 2023. Por lo tanto, la captura corregida del primer semestre 2023 es de 153 mil toneladas en el *hito 2*. Manteniendo este mismo criterio de corrección, en el *hito 3* se descuenta el remanente de cuota consumido a mayo 2023 igual a 36 mil toneladas, obteniendo una captura corregida del primer semestre de 120 mil toneladas (\textbf{Tabla  \ref{Tab26b1}}).
+
+
+**b) Captura 2023/24:**
+
+La captura 2023/24 proyectada bajo un escenario de reclutamientos históricos y mortalidad por pesca igual al $F_{RMS}=0,47$ fue de 178 mil toneladas para el *hito 1*, 250 mil toneladas para el *hito 2* y 247 mil toneladas para el *hito 3*.
+
+*Captura  segundo semestre 2023:* Para los tres hitos se asume una captura igual al 30% de la captura 2023/24, esto es, 53 mil toneladas para el *hito 1*, 75 mil toneladas para el *hito 2* y 74 mil toneladas para le *hito 3*, considerando el escenario de reclutamiento histórico (\textbf{Tabla  \ref{Tab26b1}}).
+
+**c) Captura 2023:**
+
+Finalmente, la Captura para el año calendario 2023 se obtiene de la captura del primer semestre  2023 más la  captura del segundo semestre 2023 calculados con los criterios descritos previamente. Considerando el escenario de reclutamiento histórico como referencia, para *hito 1* la captura 2023 fue de 179 mil toneladas (en este hito no se descontó el remanente de cuota 2022 porque aún no se contaba con antecedentes).  Para el *hito 2* la captura se estima en 194 mil toneladas y para el *hito 3* en 185 mil toneladas (\textbf{Tabla  \ref{Tab26b1}}).  En ambos hitos se realiza el descuento del remanente de cuota 2022, para evitar la sobrepesca, ya que la Ley de remanentes permite capturar 63 mil toneladas adicionales a la CBA inicial 2023 (178.677 toneladas,\textbf{Tabla  \ref{Tab27b2}}).  Bajo este escenario, la CBA 2023 estimada en el *hito 2* y en el *hito 3* aumenta un 8% y 3% respectivamente, considerando  como referencia el escenario de reclutamiento histórico, descuento del 2% de descarte y 30% de riesgo de la CBA inicial (\textbf{Tabla  \ref{Tab27b2}}).
 
 \newpage
+\begin{landscape} 
 
-```{r fig.height=10,fig.width=9,fig.cap="\\label{Fig44cs}Captura a la edad proyectada años 2022/2023 y 2023/2024 bajo tres escenarios de reclutamiento (proyectado en el hito 1, septiembre 2022)."}
+
+```{r}
+  caption1 <-"Criterios utilizados en los tres hitos de manejo para el cálculo de captura en año calendario 2023. "
+
+tb8b_H3("\\label{Tab26b1}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
+```
+
+
+
+
+\end{landscape} 
+\newpage
+
+
+\vspace{1cm}
+```{r fig.height=10,fig.width=9,fig.cap="\\label{Fig44c1}Captura a la edad proyectada años 2022/23 y 2023/24 en los tres hitos de manejo, bajo tres escenarios de reclutamiento."}
 
 col_escRecl<-c("red","green","blue")
 par(mfrow=c(3,2),mar=c(4,4,2,1)+0.5)
@@ -3201,148 +3223,27 @@ fig22_anch_H2y3(Rdata_proy_Hito3,escReclH3,col_escRecl,ylim=135000,yearProy)
 
 \newpage
 
-### Captura Biológicamente Aceptable año 2023 por hito de manejo
-
-El cálculo de la CBA inicial para el año calendario `r years[nyears]+1 #2023` se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería que a la fecha se asume 70% para el primer semestre y 30% para el segundo semestre, bajo un criterio de explotación de $F60\%SPR$, sujeto a percentiles de probabilidad entre el 10% y 50%. 
-
-Las \textbf{Tablas \ref{Tab27s} y \ref{Tab27s_b} } y \textbf{Figura \ref{Fig44ds}} muestran los rangos de capturas para el año `r years[nyears]+1 #2023` estimada bajo un escenario de `r escRecl2[1]` podría situarse entre `r formatC(round(CBA_sept[1,1]/1000,1),decimal.mark = ",")` mil t y `r formatC(round(CBA_sept[1,5]/1000,1),decimal.mark = ",")` mil t; bajo un escenario de `r escRecl2[2]` entre `r formatC(round(CBA_sept[2,1]/1000,1),decimal.mark = ",")` mil t y `r formatC(round(CBA_sept[2,5]/1000,1),decimal.mark = ",")` mil t y, bajo un escenario de `r escRecl2[3]` entre `r formatC(round(CBA_sept[3,1]/1000,1),decimal.mark = ",")` mil t y `r formatC(round(CBA_sept[3,5]/1000,1),decimal.mark = ",")` mil t.
-
-Considerando el descuento del 2% de descarte `r years[nyears]+1 #2023`, los rangos de capturas para el año `r years[nyears]+1 #2023` estimada bajo un escenario de `r escRecl2[1]` podría situarse entre `r formatC(round(CBAd_sept[1,1]/1000,1),decimal.mark = ",")` mil t y `r formatC(round(CBAd_sept[1,5]/1000,1),decimal.mark = ",")` mil t; bajo un escenario de `r escRecl2[2]` entre
-`r formatC(round(CBAd_sept[2,1]/1000,1),decimal.mark = ",")` mil t y `r formatC(round(CBAd_sept[2,5]/1000,1),decimal.mark = ",")` mil t y, bajo un escenario de `r escRecl2[3]` entre `r formatC(round(CBAd_sept[3,1]/1000,1),decimal.mark = ",")` mil t y `r formatC(round(CBAd_sept[3,5]/1000,1),decimal.mark = ",")` mil t. 
-
-Para evaluar el efecto que tiene la decisión de la CBA en base a los percentiles (10%-50%) que en general son menores a la captura al RMS (percentil del 50%), se calculó el resguardo a lo cual equivale cada percentil (\textbf{Tabla \ref{Tab28s}}). Esos niveles variaron entre un `r formatC(round(mean(buffer[,4])*100,1),decimal.mark = ",")`% para un percentil del 40% hasta un `r formatC(round(mean(buffer[,1])*100,1),decimal.mark = ",")`% para un percentil de probabilidad del 10%, considerando tres escenarios de reclutamiento.
-
-En la sexta sesión del CCT-PP 2022 (Acta de Sesión No6, octubre 2022 [^11]) se recomendó una CBA máxima 2023 de 178,7 mil toneladas correspondiente al escenario de reclutamiento promedio histórico (1997-2022), 30 % de percentil de captura (equivalente a un 11 % resguardo) y el descuento del 2 % de descarte (\textbf{Tabla \ref{Tab27s_b}}).
-
-[^11]: <https://www.subpesca.cl/portal/616/articles-116116_documento.pdf>
-
-\newpage
-
 ```{r}
-  caption1 <-"Primera revisión de la CBA año calendario 2023 calculada bajo 
-      $F_{RMS}$ con sus respectivos percentiles de captura entre 10\\% y 50\\% y 
-      tres escenarios de reclutamientos."
-#tb9_H1("\\label{Tab27s}",Rdata_proy_Hito1,escReclH1,especie,region,caption1)
-#tb9_H2("\\label{Tab26m2_c1}",Rdata_proy_Hito2,escReclH2,especie,region,caption1)
-tb9_H3("\\label{Tab26m2_c2}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
-```
-
-\newpage
-
-```{r}
-  caption1 <-"Segunda revisión de la CBA año calendario 2023 considerando el
-              descuento del 2\\% de descarte."
-#tb10_anch_H1("\\label{Tab27s_b}",Rdata_proy_Hito1,escReclH1,especie,region,caption1)
-#tb10_anch_H2("\\label{Tab27m_b}",Rdata_proy_Hito2,escReclH2,especie,region,caption1)
-tb10_anch_H3("\\label{Tab27j}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
-```
-
-\newpage
-
-```{r}
-caption1 <-"Nivel de resguardo de cada percentil de Captura al RMS."
-#tb11_H1("\\label{Tab28s}",Rdata_proy_Hito1,escReclH1,especie,region,caption1)
-#tb11_H2("\\label{Tab28s}",Rdata_proy_Hito2,escReclH2,especie,region,caption1)
-tb11_H3("\\label{Tab28s}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
-```
-\newpage
-
-```{r fig.height=9,fig.width=8,fig.cap="\\label{Fig44ds}a) Distribución de probabilidad de la Captura al RMS proyectada al 2023 bajo tres escenarios de reclutamiento proyectado en el hito 1. La zona sombreada corresponde a la zona de percentiles de probabilidad de captura (*P) entre el 10\\%-50\\%. b) La CBA estimada para cada *P."}
-
-par(mfrow=c(3,2),mar=c(4,4,2,1)+0.5)
-fig23(Rdata_proy_Hito1,escReclH1,col_escRecl,
-      ylim1=c(0,1.3e-05),
-      ylim2=c(0,300000),
-      xlim1=c(0,450000),
-      leg1=c(23000,1.25e-05),
-      leg2=c(15,2.9e+05),
-      text1=c(425000,1.22e-05),
-      text2=c(49,2.88e+05),
-      yearProy)
-
-fig23_HITO2y3(Rdata_proy_Hito2,escReclH2,col_escRecl,
-      ylim1=c(0,9.55e-06),
-      ylim2=c(0,300000),
-      xlim1=c(0,490000),
-      leg1=c(22500,9.5e-06),
-      leg2=c(15,2.9e+05),
-      text1=c(4.65e+05,9e-06),
-      text2=c(49,2.92e+05),
-      yearProy)
-
-fig23_HITO2y3(Rdata_proy_Hito3,escReclH3,col_escRecl,
-      ylim1=c(0,9.55e-06),
-      ylim2=c(0,300000),
-      xlim1=c(0,490000),
-      leg1=c(22500,9.5e-06),
-      leg2=c(15,2.9e+05),
-      text1=c(4.65e+05,9e-06),
-      text2=c(49,2.92e+05),
-      yearProy)
-
-```
-
-\newpage
-
-
-```{r}
-  caption1 <-"Captura año 2022/23 actualizada en Hito 2 (marzo 2023) y proyectada hacia
-                 el año 2023/24 considerando  una mortalidad por pesca al $F_{RMS}$, con sus
-                 respectivos escenarios de reclutamientos. El cálculo de la captura para el año 
-                 calendario 2023 descontando el desembarque del segundo semestre 2022 y el saldo de
-                 cuota 2022 a la captura del año biológico 2022/23 y el 30\\% de la captura proyectada
-                 hacia el año 2022/23. "
-
-tb8b_H3("\\label{Tab26bm}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
-```
-
-
-
-\newpage
-
-```{r}
-# diferencias CBA inicial y Primera revisión 
-  caption1 <-"\\label{Tab27m_c1} Diferencias porcentuales entre 
-  la CBA 2023 proyectada en Hito 1 y  CBA 2023 actualizada en el Hito 2 (Criterio 1)."
-
-tb12_anch_H2("\\label{Tab27m_c1}",Rdata_proy_Hito1,Rdata_proy_Hito2,escReclH2,especie,region,caption1)
-```
-
-
-#### Criterio de la captura primer semestre 2023: descontando el desembarque del segundo semestre 2022 y saldo cuota 2022 a la captura actualizada 2022/23.
-
-
-```{r}
-  caption1 <-"\\label{Tab27m1_c2} Primera revisión de la CBA año calendario 2023 calculada bajo 
+  caption1 <-"CBA año calendario 2023 calculada en los tres hitos de manejo bajo 
       $F_{RMS}$ con sus respectivos percentiles de captura entre 10\\% y 50\\% y 
       tres escenarios de reclutamientos."
 
-tb9B_H3("\\label{Tab27m1_c2}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
+tb9B_H3("\\label{Tab27b1}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
 ```
 
+\newpage
 ```{r}
-  caption1 <-"\\label{Tab27m2_c2} Primera revisión de la CBA año calendario 2023 considerando el
-              descuento del 2\\% de descarte."
+  caption1 <-"CBA año calendario 2023 calculada en los tres hitos de manejo  considerando el descuento del 2\\% de descarte."
 
-tb10B_anch_H3("\\label{Tab27m2_c2}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
+tb10B_anch_H3("\\label{Tab27b2}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
 ```
 
 \newpage
 
 ```{r}
-  caption1 <-"\\label{Tab28m_c2} Nivel de resguardo de cada percentil de Captura al RMS."
+  caption1 <-"Nivel de resguardo de cada percentil de Captura al RMS."
 
-tb11B_H3("\\label{Tab28m_c2}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
-```
-
-
-```{r}
-  #FALTA ACTUALIZAR!!!!
-  caption1 <-"\\label{Tab27m3_c2} Diferencias porcentuales entre 
-  la CBA 2023 proyectada en Hito 1 y  CBA 2023 actualizada en el Hito 2 (Criterio 2)."
-
-# diferencias CBA inicial y Primera revisión 
-tb13_anch_H2("\\label{Tab27m3_c2}",Rdata_proy_Hito1,Rdata_proy_Hito2,escReclH2,especie,region,caption1)
+tb11B_H3("\\label{Tab28m}",Rdata_proy_Hito1,Rdata_proy_Hito2,Rdata_proy_Hito3,escReclH2,especie,region,caption1)
 ```
 
 
