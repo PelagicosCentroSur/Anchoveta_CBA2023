@@ -879,58 +879,60 @@ tb8b_H2<-function(label_tb,Rdata_proy_HitoH2,escRecl,especie,region,caption1){
 
 tb8b_H3<-function(label_tb,Rdata_proy_HitoH1,Rdata_proy_HitoH2,Rdata_proy_HitoH3,escRecl,especie,region,caption1){
   
+  pd<-0.98 #porcentaje de descarte
   # HITO 1 ----------------------------------------------------------------------------------------
   load(Rdata_proy_HitoH1)
   
-  CapturaproyH1<-rbind('Supuesto Captura proyectada 2022/23'   =c("-",round(c((cs1[1]*0.98),
-                                                                              (cs2[1]*0.98),
-                                                                              (cs3[1]*0.98))/1000,0)),
-                       'Desembarque segundo semestre 2022'     =c("-","-","-","-"),
-                       'Remanente cuota 2022'                  =c("-","-","-","-"),
-                       'Supuesto Captura primer semestre 2023' =c("-",round(c((cs1[1]*0.98)*0.7,
-                                                                              (cs2[1]*0.98)*0.7,
-                                                                              (cs3[1]*0.98)*0.7)/1000,0)),
-                       'Supuesto Captura proyectada 2023/24'   =c("-",round(c((cs1[2]*0.98),
-                                                                              (cs2[2]*0.98),
-                                                                              (cs3[2]*0.98))/1000,0)),
-                       'Supuesto Captura segundo semestre 2023'=c("-",round(c((cs1[2]*0.98)*0.3,
-                                                                              (cs2[2]*0.98)*0.3,
-                                                                              (cs3[2]*0.98)*0.3)/1000,0)),
-                       'Captura año calendario 2023'           =c("-",round(c(((cs1[1]*0.98)*0.7)+((cs1[2]*0.98)*0.3),
-                                                                              ((cs2[1]*0.98)*0.7)+((cs2[2]*0.98)*0.3),
-                                                                              ((cs3[1]*0.98)*0.7)+((cs3[2]*0.98)*0.3))/1000,0)))
+  CapturaproyH1<-rbind(
+    '$Captura_{2022/23}$ = $F_{RMS}$'=c("-",round(c((cs1[1]*pd),(cs2[1]*pd),(cs3[1]*pd))/1000,0)),
+    '$Captura_{2doSem_{2022}} = 30\\%Captura_{2022/23}$'=c("-",round(c((cs1[1]*pd)*0.3,
+                                                                       (cs2[1]*pd)*0.3,
+                                                                       (cs3[1]*pd)*0.3)/1000,0)),
+    '$Captura_{1erSem_{2023}} = 70\\%Captura_{2022/23}$'=c("-",round(c((cs1[1]*pd)*0.7,
+                                                                       (cs2[1]*pd)*0.7,
+                                                                       (cs3[1]*pd)*0.7)/1000,0)),
+    '$Remanente_{cuota2022}$ (sin antecedentes)'=c("-","-","-","-"),
+    '$Captura_{2023/24}$ = $F_{RMS}$'=c("-",round(c((cs1[2]*pd),(cs2[2]*pd), (cs3[2]*pd))/1000,0)),
+    '$Captura_{2doSem_{2023}} = 30\\%Captura_{2023/24}$' =c("-",round(c((cs1[2]*pd)*0.3,
+                                                                        (cs2[2]*pd)*0.3,
+                                                                        (cs3[2]*pd)*0.3)/1000,0)),
+    'Captura año calendario 2023'=c("-",round(c(((cs1[1]*pd)*0.7)+((cs1[2]*pd)*0.3),
+                                                ((cs2[1]*pd)*0.7)+((cs2[2]*pd)*0.3),
+                                                ((cs3[1]*pd)*0.7)+((cs3[2]*pd)*0.3))/1000,0)))
   # HITO 2 ----------------------------------------------------------------------------------------
   load(Rdata_proy_HitoH2)
   
-  CapturaproyH2<-rbind('Año biológico proyectada 2022/23'=c(round((cs0d[1])/1000,0),"-","-","-"),
-                       'Desembarque segundo semestre 2022'=c(round(desem2doSem/1000,0),"-","-","-"),
-                       'Saldo  cuota 2022'               =c(round(remanente/1000,0),"-","-","-"),
-                       'Primer Semestre 2023'            =c(round(cs01erSR/1000,0),"-","-","-"),
-                       'Año biológico proyectada 2023/24'=c("-",round(c((cs1[1]*0.98),
-                                                                        (cs2[1]*0.98),
-                                                                        (cs3[1]*0.98))/1000,0)),
-                       'Segundo Semestre 2023'           =c("-",round(c((cs1[1]*0.98)*0.3,
-                                                                        (cs2[1]*0.98)*0.3,
-                                                                        (cs3[1]*0.98)*0.3)/1000,0)),
-                       'Año calendario 2023'             =c("-",round(c(cs01erSR+((cs1[1]*0.98)*0.3),
-                                                                        cs01erSR+((cs2[1]*0.98)*0.3),
-                                                                        cs01erSR+((cs3[1]*0.98)*0.3))/1000,0)))
+  CapturaproyH2<-rbind(
+    '$Captura_{2022/23}$ = $F_{RMS}$'=c(round((cs0d[1])/1000,0),"-","-","-"),
+    '$Captura_{2doSem_{2022}} = Desembarque_{2doSem_{2022}}$'=c(round(desem2doSem/1000,0),"-","-","-"),
+    '$Captura_{1erSem_{2023}} = Captura_{2022/23} -  Desembarque_{2doSem_{2022}}$'=c(round((cs0d[1]-desem2doSem)/1000,0),"-","-","-"),
+    '$Remanente_{cuota 2022}$ (autorizado por ley)' =c(round(remanente/1000,0),"-","-","-"),
+    '$Captura Corregida_{1erSem_{2023}} = Captura_{1erSem_{2023}} - Remanente_{cuota 2022}$'=c(round(cs01erSR/1000,0),"-","-","-"),
+    '$Captura_{2023/24}$ = $F_{RMS}$'=c("-",round(c((cs1[1]*pd),
+                                                    (cs2[1]*pd),
+                                                    (cs3[1]*pd))/1000,0)),
+    '$Captura_{2doSem_{2023}} = 30\\%Captura_{2023/24}$'=c("-",round(c((cs1[1]*pd)*0.3,
+                                                                       (cs2[1]*pd)*0.3,
+                                                                       (cs3[1]*pd)*0.3)/1000,0)),
+    'Captura año calendario 2023'=c("-",round(c(cs01erSR+((cs1[1]*pd)*0.3),
+                                                cs01erSR+((cs2[1]*pd)*0.3),
+                                                cs01erSR+((cs3[1]*pd)*0.3))/1000,0)))
   # HITO 3 ----------------------------------------------------------------------------------------
   load(Rdata_proy_HitoH3)
   
-    CapturaproyH3<-rbind('Año biológico proyectada 2022/23'=c(round((cs0d[1])/1000,0),"-","-","-"),
-                       'Desembarque segundo semestre 2022'=c(round(desem2doSem/1000,0),"-","-","-"),
-                       'Saldo  cuota 2022'                =c(round(remanente/1000,0),"-","-","-"),
-                       'Primer Semestre 2023'             =c(round(cs01erSR/1000,0),"-","-","-"),
-                       'Año biológico proyectada 2023/24' =c("-",round(c((cs1[1]*0.98),
-                                                                         (cs2[1]*0.98),
-                                                                         (cs3[1]*0.98))/1000,0)),
-                       'Segundo Semestre 2023'            =c("-",round(c((cs1[1]*0.98)*0.3,
-                                                                         (cs2[1]*0.98)*0.3,
-                                                                         (cs3[1]*0.98)*0.3)/1000,0)),
-                       'Año calendario 2023'              =c("-",round(c(cs01erSR+((cs1[1]*0.98)*0.3),
-                                                                         cs01erSR+((cs2[1]*0.98)*0.3),
-                                                                         cs01erSR+((cs3[1]*0.98)*0.3))/1000,0)))
+  CapturaproyH3<-rbind(
+    '$Captura_{2022/23}$ = $F_{2022/23}$'=c(round((cs0d[1])/1000,0),"-","-","-"),
+    '$Captura_{2doSem_{2022}} = Desembarque_{2doSem_{2022}}$'=c(round(desem2doSem/1000,0),"-","-","-"),
+    '$Captura_{1erSem_{2023}} = Desembarque_{1erSem_{2023}}$'=c(round((cs0d[1]-desem2doSem)/1000,0),"-","-","-"),
+    '$Remanente_{cuota 2022}$ (consumido a mayo 2023)' =c(round(remanente/1000,0),"-","-","-"),
+    '$Captura Corregida_{1erSem_{2023}} = Captura_{1erSem_{2023}} - Remanente_{cuota 2022}$'=c(round(cs01erSR/1000,0),"-","-","-"),
+    '$Captura_{2023/24}$ = $F_{RMS}$' =c("-",round(c((cs1[1]*pd),(cs2[1]*pd),(cs3[1]*pd))/1000,0)),
+    '$Captura_{2doSem_{2023}} = 30\\%Captura_{2023/24}$'=c("-",round(c((cs1[1]*pd)*0.3,
+                                                                       (cs2[1]*pd)*0.3,
+                                                                       (cs3[1]*pd)*0.3)/1000,0)),
+    'Captura año calendario 2023' =c("-",round(c(cs01erSR+((cs1[1]*pd)*0.3),
+                                                 cs01erSR+((cs2[1]*pd)*0.3),
+                                                 cs01erSR+((cs3[1]*pd)*0.3))/1000,0)))
 
   Capturaproy<-rbind(CapturaproyH1,CapturaproyH2,CapturaproyH3)
   
@@ -943,10 +945,13 @@ tb8b_H3<-function(label_tb,Rdata_proy_HitoH1,Rdata_proy_HitoH2,Rdata_proy_HitoH3
       caption = paste(label_tb,caption1,especie,region,sep=" ")) %>% 
     kable_styling(latex_options = c("striped", "condensed"),
                   full_width = FALSE,font_size=10)%>% 
-    add_header_above(c("Estimación de Captura por Hito" = 1,
+    add_header_above(c("Criterios por Hito" = 1,
                        "R actualizado" = 1,
                        "Escenarios de reclutamiento" = 3),line = F)%>% 
-    pack_rows(index = c("Hito 1" = 7,"Hito 2" = 7,"Hito 3" = 7))
+    pack_rows(index = c("Hito 1" = 7,"Hito 2" = 8,"Hito 3" = 8))%>% 
+    row_spec(c(7,15,23),italic = TRUE,bold=TRUE) %>% 
+    footnote(number = "Captura año calendario 2023 = $Captura_{1erSem_{2023}}$ + $Captura_{2doSem_{2023}}$",
+             threeparttable = T,escape = FALSE,fixed_small_size = TRUE)
 }
 
 
