@@ -1,0 +1,566 @@
+---
+title: "ANEXO I: Escenarios de sensibilidad a la actualización de datos"
+output: 
+    pdf_document:
+      toc: FALSE
+      toc_depth: '3'
+      number_sections: yes
+header-includes:
+- \usepackage{draftwatermark}
+- \SetWatermarkText{}
+- \usepackage[spanish,es-tabla,shorthands=off]{babel}
+- \usepackage{setspace}
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \usepackage{booktabs}
+- \usepackage{amsmath}
+- \usepackage{nicematrix}
+- \usepackage{tabularx}
+- \usepackage{hyperref}
+- \usepackage[flushleft]{threeparttable}
+- \captionsetup[table]{name=\textbf{Tabla},labelsep=period}
+- \captionsetup[figure]{name=\textbf{Figura},labelsep=period}
+- \captionsetup{justification=justified,format=plain,font=small,labelfont=bf,margin=40pt}
+- \pagestyle{fancy}
+- \usepackage{geometry}
+- \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \usepackage{multirow}
+- \usepackage{multicol}
+- \usepackage{gensymb}
+- \usepackage{natbib}
+- \usepackage[bottom]{footmisc}
+- \renewcommand{\baselinestretch}{1.2}
+- \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
+- \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
+- \usepackage{color,colortbl}
+- \DeclareUnicodeCharacter{2212}{-}
+- \definecolor{Gray}{rgb}{0.801,0.801,0.801}
+- \definecolor{Gray1}{rgb}{0.790,0.790,0.790}
+- \definecolor{Gray2}{rgb}{0.830,0.830,0.830}
+- \definecolor{Gray3}{rgb}{0.870,0.870,0.870}
+- \definecolor{Gray4}{rgb}{0.940,0.940,0.940}
+- \addtolength{\headheight}{4.5\baselineskip}
+- \setlength{\headheight}{70pt}
+- \setlength{\footskip}{7.875pt}
+- \setlength{\textheight}{658pt}
+- \fancyhead[CO,CE]{\includegraphics[height=1.5cm]{Figuras/logoifop.png}\\ \sietepuntos INSTITUTO DE FOMENTO PESQUERO / DIVISION INVESTIGACION PESQUERA}
+- \fancyhead[LO,LE]{ }
+- \fancyhead[RO,RE]{ }
+- \renewcommand{\headrulewidth}{0.5pt}
+
+bibliography: Referencias_BibTEX.bib
+csl: apa_1.csl
+link-citations: yes
+linkcolor: black
+urlcolor: blue
+citecolor: blue
+---
+
+\normalsize
+\spacing{1.5}
+
+```{r global-options, include=FALSE}
+knitr::opts_chunk$set(echo=F, warning=FALSE, message=FALSE,collapse=TRUE,fig.align="center",fig.pos="h!")
+```
+
+
+# Contexto
+
+Cada proceso de revisión de CBA involucra la actualización y/o supuestos de datos para evaluar el impacto en las variables de estado asociado a la incorporación incremental de piezas de información. Al respecto, la actualización de datos de la asesoría actual corresponde principalmente a la información de la flota del año biológico 2022/23 (desembarques, descarte, composición de edad, pesos medios) y la incorporación de datos del crucero acústico de otoño 2023 correspondiente a la biomasa total y composición de edad.
+
+# Actualización de datos
+
+En la \textbf{Tabla 1} se comparan las fuentes de información utilizadas en asesoría científica realizada en septiembre 2022, marzo y julio del 2023 para el cálculo de CBA inicial, primera revisión y asesoría actual correspondiente a la segunda actualización de la CBA. Estas asesorías tienen como objetivo la recomendación de captura biológicamente aceptable (CBA) para el año 2023. En términos de datos, las diferencias entre la última evaluación (marzo 2023) y esta nueva revisión (julio 2023) corresponde a la actualización de los desembarques, descarte, composición de edad y pesos medios provenientes de las capturas para el ano biológico 2022/23. Además, se incorporan los resultados del crucero de evaluación hidro acústico realizado en mayo de 2023.
+
+```{=tex}
+\begin{table}[h!]
+\caption{Información relevante para el cálculo de CBA 2023 en cada una de las etapas de estimación.}
+ \label{Tab1}
+ \small
+    \centering
+    \begin{tabular}{lccc}
+    \toprule 
+\textbf{Datos de entrada} & \textbf{CBA INICIAL}   & \textbf{1ERA REVISIÓN}  & \textbf{2DA REVISIÓN}   \\ 
+\textbf{al modelo} &  \textbf{Septiembre 2022}     & \textbf{Marzo 2023}     & \textbf{Julio 2023}          \\ \rowcolor{Gray4} 
+\midrule 
+Desembarques       & Julio 1997 - junio 2022      & Julio 1997- junio 2022 +  & Julio 1997 -      \\ \rowcolor{Gray4} 
+                   &                              & Supuesto de captura 2022/2023  & preliminar a junio 2023          \\ \rowcolor{Gray4} 
+           &                                      &              &        \\                
+Biomasa acústica   &                    &                 &               \\
+Crucero de verano  & 2000 - 2022        & 2000 - 2023     & 2000 - 2023   \\
+                   &                    &                 &               \\ \rowcolor{Gray4}  
+Biomasa acústica   &                    &                 &               \\ \rowcolor{Gray4}
+Crucero de otoño   & 2006 - 2022        & 2006 - 2023     & 2006 - 2023   \\ \rowcolor{Gray4}
+                   &                    &                 &               \\
+Composición de     &                    &                 &               \\
+edad flota         & Julio 1997 - junio 2022     & Julio 1997- junio 2022   & Julio 1997 - mayo 2023  \\
+                   &                    &                 &               \\ \rowcolor{Gray4} 
+Composición de     &                    &                 &               \\ \rowcolor{Gray4}
+edad Crucero verano & 2001 - 2022        & 2001 - 2023     & 2001 - 2023  \\ \rowcolor{Gray4}
+                   &                    &                 &               \\ 
+Composición de     &                    &                 &               \\
+edad Crucero otoño & 2007 - 2022        & 2007 - 2022     & 2007 - 2023   \\
+                   &                    &                 &               \\ \rowcolor{Gray4} 
+                   &                    & Julio 1997 - junio 2022  &      \\ \rowcolor{Gray4}
+Pesos medios       & Julio 1997 - junio 2022  & Promedio de los últimos 5 años & Julio 1997 - mayo 2023  \\ \rowcolor{Gray4}
+a la edad          &                    & de la serie histórica para  &   \\ \rowcolor{Gray4}
+                   &                    & julio 1997 - junio 2023  &      \\ 
+Madurés sexual     &                    &                 &               \\ 
+a la edad          & Constante          & Constante       & Constante     \\ 
+                   &                    &                 &               \\ \rowcolor{Gray4}
+Mortalidad         &                    &                 &               \\ \rowcolor{Gray4}
+Natural            & Constante          & Constante       & Constante     \\ \rowcolor{Gray4}
+                   &                    &                 &               \\ 
+Proyección del     & Constante          & Constante       & Constante     \\ 
+reclutamiento      &                    &                 &               \\ \bottomrule
+  \end{tabular}
+        \end{table}
+```
+\pagebreak
+
+
+La información actualizada en la presente evaluación es presentada en las \textbf{Figuras 1, 2 y 3}. El desembarque total del año biológico 2022/23 fue un 42\% menor al supuesto en la asesoría de marzo 2023. La composición de edad registrada por la flota comercial durante el año biológico 2022/23, muestra que la captura estuvo sostenida principalmente por peces de edad 2 (42\%), registrándose una baja proporción de peces capturados de edad 0 (~10 \%) (\textbf{Figura 2}). Respecto a la actualización de pesos medios a la edad registrados durante el año 2022/23 (\textbf{Figura 3}), se observa un ligero incremento (menores a 1 g) en el promedio de los peces correspondientes a los grupos de edad 1, 2 y 4, respecto a los pesos medios supuestos en la asesoría de marzo 2023.  En relación a la biomasa total estimada por el crucero de otoño para el año 2023, se estimó una biomasa de 1,4 millones de t, lo que equivale a un incremento del 1\% respecto del año 2022 (\textbf{Figura 1}). La biomasa estimada por el crucero acústico de otoño 2023 está sustentada principalmente por peces de edad 0 (83\%).
+
+
+
+```{r results='hide'}
+## Librerías requeridas
+ paquetes <- c("stringr", "tidyverse", "kableExtra","ggplot2","ggthemes",
+               "patchwork","dplyr","reshape","here","pdftools","forcats")
+ lapply(paquetes, require, character.only = TRUE)
+ 
+ #pdf_combine(c("PORTADA_INICIAL.pdf", "SEGUNDO_INFORME_ANCH.pdf", "PORTADA_FINAL.pdf"), output = "RESULTADOS_SEGUNDO_INFORME.pdf")
+```
+
+
+```{r}
+## Directorios de trabajo
+dir.0   <- here() 
+dir.1   <- here("Sensibilidad_datos_entrada") 
+dir.fun <- here("funciones") 
+dir.Rdata<-here(dir.1,"Rdata")
+```
+
+
+```{r}
+## Cargar funciones
+source(here("funciones","functions.R")) 
+source(here("funciones","Fn_CrearRdata.R"))
+source(here("funciones","Fn_Data.frame.R"))
+source(here("funciones","Fn_Figuras.R"))
+source(here("funciones","Fn_Tablas.R"))
+source(here("funciones","Fn_PBRs.R")) 
+source(here("funciones","Fn_Nm_Ia.R")) 
+source(here("funciones","Fn_Crms_Fmedian.R")) 
+source(here("funciones","Fn_CBA.R")) 
+source(here("funciones","removefile.R"))	
+```
+
+```{r}
+## Especificaciones iniciales
+opt.Rdata<-list.files(here("Rdata"),pattern="Datos_.")
+opt.Hito<-c('Hito 1','Hito 2','Hito 3')
+mesHito<-c('septiembre','marzo','julio')
+opt.flota<-c("Flota","Crucero_verano","Crucero_otoño")
+opt.type<-c('observado','predicho')
+especie<-"Anchoveta"
+region<- " de las regiones de Valparaíso a Los Lagos. "
+HITOact   <- 'Hito 3'
+col_line  <-c('black','red','blue')
+type_line <-c("solid",'dashed','dashed')
+col_fill  <-c('gray60','gray50','gray30')
+ant <-reptoRlist(paste(dir.0,"/DatosEntrada.dat",sep=""))  # datos utilizados para antecedentes
+```
+
+
+```{r eval=FALSE, include=F}
+## Compilar y ejecutar modelo ADMB
+setwd(dir.1)
+#para mac
+#system("~/admb-12.2/admb MAE723")
+#system("./MAE723")
+#para windows
+system("admb MAE723s6")
+system("MAE723s6")
+
+source(here("funciones","removefile.R"))
+removefileadmb(dir.1,"MAE723s6") 
+
+```
+
+```{r}
+# `Fn_CrearRdata.R`
+
+setwd(dir.1)
+## Archivos de entrada y salida ADMB
+admb_dat  <- list.files(pattern=".dat")
+admb_rep  <- list.files(pattern=".rep")
+admb_std  <- list.files(pattern=".std")
+```
+
+```{r}
+## `CreaRdata` Lee archivos de entrada y salida de ADMB y crea Rdata para cada hito
+#setwd(dir.1)
+Rdata_base(dir.1,"MAE723s1.dat","MAE723s1.rep","MAE723s1.std",especie,region,'Escenario 1','septiembre',dir.Rdata)#hito1
+Rdata_base(dir.1,"MAE723s2.dat","MAE723s2.rep","MAE723s2.std",especie,region,'Escenario 2','septiembre',dir.Rdata)
+Rdata_base(dir.1,"MAE723s3.dat","MAE723s3.rep","MAE723s3.std",especie,region,'Escenario 3','septiembre',dir.Rdata)
+Rdata_base(dir.1,"MAE723s4.dat","MAE723s4.rep","MAE723s4.std",especie,region,'Escenario 4','septiembre',dir.Rdata)
+Rdata_base(dir.1,"MAE723s5.dat","MAE723s5.rep","MAE723s5.std",especie,region,'Escenario 5','septiembre',dir.Rdata)
+Rdata_base(dir.1,"MAE723s6.dat","MAE723s6.rep","MAE723s6.std",especie,region,'Escenario 6','septiembre',dir.Rdata)
+Rdata_base(dir.1,"MAE723s1.dat","MAE723s1.rep","MAE723s1.std",especie,region,'Escenario 1','septiembre',dir.Rdata)
+Rdata_base(dir.1,"MAE723s7.dat","MAE723s7.rep","MAE723s7.std",especie,region,'Escenario 7',"marzo",dir.Rdata)#hito2
+
+#Rdata_base(dir.1,"MAE723.dat","MAE723.rep","MAE723.std",especie,region,'Hito 3',"julio",dir.Rdata)#hito3
+
+```
+
+```{r}
+## Se especifica la ruta donde se encuentra el archivo Rdata 
+opt.Rdata<-list.files(here("Rdata"),pattern="Datos_.")
+#Rdata_H1<-here(dir.Rdata,archivo.Rdata="Datos_Hito 1.RData")
+Rdata_s1<-here(dir.Rdata,archivo.Rdata="Datos_Escenario 1.RData")
+Rdata_s2<-here(dir.Rdata,archivo.Rdata="Datos_Escenario 2.RData")
+Rdata_s3<-here(dir.Rdata,archivo.Rdata="Datos_Escenario 3.RData")
+Rdata_s4<-here(dir.Rdata,archivo.Rdata="Datos_Escenario 4.RData")
+Rdata_s5<-here(dir.Rdata,archivo.Rdata="Datos_Escenario 5.RData")
+Rdata_s6<-here(dir.Rdata,archivo.Rdata="Datos_Escenario 6.RData")
+Rdata_s7<-here(dir.Rdata,archivo.Rdata="Datos_Escenario 7.RData")
+
+```
+
+
+```{r Fig1,fig.cap="\\label{Fig1} Comparación entre los datos utilizados en la asesoría de marzo y julio 2023 para el stock de anchoveta de las regiones de Valparaíso a Los Lagos. Se actualiza información para el año 2023.",fig.height=7,fig.width=6}
+
+load(Rdata_s7); indobs_s7  <-indobs
+load(Rdata_s1); indobs_s1  <-indobs
+#load(Rdata_H1); indpred_H1 <-indpred
+
+DATA<-rbind(indobs_s1, indobs_s7, all = TRUE) 
+
+
+BcV <- ggplot(DATA %>% filter(type!='observado', variable=='Crucero_verano'), 
+              aes(yrs,value/1000000)) + 
+  geom_line(data=DATA %>% filter(type=='observado', variable=='Crucero_verano'), 
+              aes(yrs,value/1000000, colour=Asesoria,linetype = Asesoria), size=0.8) +
+  geom_point(data = DATA %>% filter(type=='observado', variable=='Crucero_verano'),
+             aes(yrs,value/1000000), shape = 19, colour = 'gray30') +
+  scale_colour_manual(values=col_line) +
+  scale_linetype_manual(values=type_line)+
+  scale_x_continuous(breaks = seq(from = 1985, to = 2050, by = 4)) +
+  labs(x = '', y = 'Biomasas (millones de t)') +
+  theme_bw(base_size=9) + 
+  ggtitle('Biomasa de Crucero de verano')+
+  theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+BcP <- ggplot(DATA %>% filter(type!='observado', variable=='Crucero_otoño'), 
+              aes(yrs,value/1000000)) + 
+  geom_line(data = DATA %>% filter(type=='observado', variable=='Crucero_otoño'),
+             aes(yrs,value/1000000,colour=Asesoria,linetype = Asesoria), size=0.8) +
+  scale_colour_manual(values=col_line,name="Asesoría") +
+  scale_linetype_manual(values=type_line,name="Asesoría")+
+  geom_point(data = DATA %>% filter(type=='observado', variable=='Crucero_otoño'),
+             aes(yrs,value/1000000), shape = 19, colour = 'gray30') +
+  scale_x_continuous(breaks = seq(from = 1985, to = 2050, by = 4)) +
+  labs(x = '', y = 'Biomasas (millones de t)') +
+  theme_bw(base_size=9) + 
+  ggtitle('Biomasa de Crucero de otoño')+
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+d   <- ggplot(DATA %>% filter(type!='observado', variable=='Desembarques'), 
+              aes(yrs,value/1000)) +
+  geom_line(data = DATA %>% filter(type=='observado', variable=='Desembarques'),
+             aes(yrs,value/1000, colour=Asesoria,linetype = Asesoria), size=0.8) +
+  scale_colour_manual(values=col_line) +
+  scale_linetype_manual(values=type_line)+
+  geom_point(data = DATA %>% filter(type=='observado', variable=='Desembarques'),
+             aes(yrs,value/1000), shape = 19, colour = 'gray30') +
+  scale_x_continuous(breaks = seq(from = 1985, to = 2022, by = 5)) +
+  labs(x = '', y = 'Capturas (miles de t)') +
+  theme_bw(base_size=9) + 
+  ggtitle('Desembarques') +
+  theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+(BcV/BcP/d) + plot_layout(guides="collect")
+
+```
+
+\quad
+
+
+```{r Fig2,fig.cap="\\label{Fig2} Comparación entre la proporción de edad de la flota y cruceros acústicos de verano y otoño de anchoveta de las regiones de Valparaíso a Los Lagos. Se compara la información utilizada en la asesoría de marzo y julio 2023.",fig.height=7,fig.width=5}
+
+load(Rdata_s7); pfobs_s7  <-pfobs; pRobs_s7  <-pRobs; pPobs_s7  <-pPobs
+load(Rdata_s1); pfobs_s1  <-pfobs; pRobs_s1  <-pRobs; pPobs_s1  <-pPobs
+
+DATA_f<-rbind(pfobs_s1, pfobs_s7)
+DATA_r<-rbind(pRobs_s1, pRobs_s7) 
+DATA_p<-rbind(pPobs_s1, pPobs_s7) 
+
+# Agregar la nueva columna de agrupación
+Escenario <- rep(c("s1", "s7"), each = 27)
+Años <- rep(c(1997:2023, 1997:2023), times = 2)
+DF_F <- data.frame(cbind(DATA_f, Escenario,Años))
+DF_R <- data.frame(cbind(DATA_r, Escenario,Años))
+DF_P <- data.frame(cbind(DATA_p, Escenario,Años))
+
+#Transformar la columna de edad a números
+DF_F <- DF_F %>% 
+  gather(Edad, valores, V1:V5)
+DF_F[DF_F=="V1"]<-0;DF_F[DF_F=="V2"]<-1; DF_F[DF_F=="V3"]<-2; DF_F[DF_F=="V4"]<-3;
+DF_F[DF_F=="V5"]<-4
+DF_F <- DF_F %>%
+  mutate(Edad = as.numeric(Edad),valores=as.numeric(DF_F$valores))
+
+
+DF_R <- DF_R %>% 
+  gather(Edad, valores, V1:V5)
+DF_R[DF_R=="V1"]<-0;DF_R[DF_R=="V2"]<-1; DF_R[DF_R=="V3"]<-2; DF_R[DF_R=="V4"]<-3;
+DF_R[DF_R=="V5"]<-4
+DF_R <- DF_R %>%
+  mutate(Edad = as.numeric(Edad),valores=as.numeric(DF_R$valores))
+
+
+DF_P <- DF_P %>% 
+  gather(Edad, valores, V1:V5)
+DF_P[DF_P=="V1"]<-0;DF_P[DF_P=="V2"]<-1; DF_P[DF_P=="V3"]<-2; DF_P[DF_P=="V4"]<-3;
+DF_P[DF_P=="V5"]<-4
+DF_P <- DF_P %>%
+  mutate(Edad = as.numeric(Edad),valores=as.numeric(DF_P$valores))
+
+
+cF <- ggplot(DF_F, 
+              aes(Edad,valores)) + 
+  geom_line(data = DF_F %>% filter(Años==2023),
+            aes(Edad,valores,colour=Escenario,linetype = Escenario), size=0.8) +
+  scale_colour_manual(values=col_line) +
+  scale_linetype_manual(values=type_line)+
+  labs(x = '', y = 'Biomasas (millones de t)') +
+  theme_bw(base_size=9) + 
+  ggtitle('Composición de Edad de la Flota 2022/23')+
+  theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+cR <- ggplot(DF_R, 
+              aes(Edad,valores)) + 
+  geom_line(data = DF_R %>% filter(Años==2023),
+            aes(Edad,valores,colour=Escenario,linetype = Escenario), size=0.8) +
+  scale_colour_manual(values=col_line) +
+  scale_linetype_manual(values=type_line)+
+  labs(x = '', y = 'Biomasas (millones de t)') +
+  theme_bw(base_size=9) + 
+  ggtitle('Composición de Edad del Crucero de Verano 2022/23')+
+  theme(plot.title = element_text(hjust = 0.5))
+
+cP <- ggplot(DF_P, 
+              aes(Edad,valores)) + 
+  geom_line(data = DF_P %>% filter(Años==2023),
+            aes(Edad,valores,colour=Escenario,linetype = Escenario), size=0.8) +
+  scale_colour_manual(values=col_line) +
+  scale_linetype_manual(values=type_line)+
+  labs(x = '', y = 'Biomasas (millones de t)') +
+  theme_bw(base_size=9) + 
+  ggtitle('Composición de Edad del Crucero de Otoño 2022/23')+
+  theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+(cF/cR/cP) + plot_layout(guides="collect")
+
+```
+\quad
+
+\pagebreak
+
+```{r Fig3,fig.cap="\\label{Fig3} Comparación entre los pesos medios a la edad de anchoveta de las regiones de Valparaíso a Los Lagos. Se compara la información utilizada en la asesoría de marzo y julio 2023.",fig.height=4,fig.width=5}
+
+load(Rdata_s7); WmedF_s7  <-WmedF
+load(Rdata_s1); WmedF_s1  <-WmedF
+
+DATA_peso<-rbind(WmedF_s1, WmedF_s7)
+
+
+# Agregar la nueva columna de agrupación
+Escenario <- rep(c("s1", "s7"), each = 27)
+Años <- rep(c(1997:2023, 1997:2023), times = 2)
+DF_peso <- data.frame(cbind(DATA_peso, Escenario,Años))
+
+
+#Transformar la columna de edad a números
+DF_peso <- DF_peso %>% 
+  gather(Edad, valores, V1:V5)
+DF_peso[DF_peso=="V1"]<-0;DF_peso[DF_peso=="V2"]<-1; 
+DF_peso[DF_peso=="V3"]<-2; DF_peso[DF_peso=="V4"]<-3;DF_peso[DF_peso=="V5"]<-4
+DF_peso <- DF_peso %>%
+  mutate(Edad = as.numeric(Edad),valores=as.numeric(DF_peso$valores))
+
+
+ggplot(DF_peso, 
+              aes(Edad,valores)) + 
+  geom_line(data = DF_peso %>% filter(Años==2023),
+            aes(Edad,valores,colour=Escenario,linetype = Escenario), size=0.8) +
+  scale_colour_manual(values=col_line) +
+  scale_linetype_manual(values=type_line)+
+  labs(x = '', y = 'gramos') +
+  theme_bw(base_size=9) + 
+  ggtitle('Pesos medios a la edad 2022/23')+
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+\quad
+
+\pagebreak
+\newpage
+
+# Descripción del modelo base y procesos involucrados en la revisión de julio 2023.
+
+Para mantener la consistencia en el proceso de evaluación del stock y estimación de CBA, se utilizó un modelo edad estructurado igual al usado en las asesorías previas(septiembre 2022 y marzo 2023). Con objeto de evaluar el impacto en las variables de estado debido a la incorporación de nuevos datos, se realizó un proceso incremental de incorporación de piezas de información de acuerdo a la \textbf{Tabla 2}. 
+
+
+
+```{=tex}
+\begin{table}[h!]
+\caption{Escenarios de que permiten evaluar el impacto de la incorporación de datos actualizados en el proceso de actualización.}
+ \label{Tab1}
+ \small
+    \centering
+    \begin{tabular}{ll}
+    \toprule 
+\textbf{Casos}  & \textbf{Descripción}                       \\ \rowcolor{Gray4} \midrule 
+MAE723 s1       & Caso base asesoría marzo 2023              \\ 
+MAE723 s2       & s1 + Actualización de Captura 2022/23      \\ \rowcolor{Gray4} 
+MAE723 s3       & s2 + Actualización de composición de edades Flota    \\                
+MAE723 s4       & s3 + Actualización de pesos medios e iniciales Flota \\ \rowcolor{Gray4}
+MAE723 s5       & s4 + Actualización de biomasas del Crucero de otoño  \\
+MAE723 s6    & s5 + Actualización de composición de edades Crucero de Otoño \\ \rowcolor{Gray4}
+MAE723 s7       & s6 + Actualización de tamaños de muestra  \\ \bottomrule
+  \end{tabular}
+        \end{table}
+
+```
+
+\quad
+\pagebreak
+
+# Actualización de las principales variables de estado
+
+En la \textbf{Tabla 3} y \textbf{Figura 4} se muestra el impacto de la incorporación y actualización de la información en las principales variables de estado para el escenario 1 (asesoría de marzo 2023). Los resultados muestran que la actualización de la captura del año biológico 2022/23 (escenario 2) genera un incremento entre un 2\% en los reclutamientos, manteniendo los niveles de biomasa desovante, y un aumento del 44\% de la mortalidad por pesca. La incorporación de los pesos medios 2022/23 (escenario 4) genera una disminución del 7\% en la biomasa desovante y de un 8\% de BD/BDRMS, consecuente con un aumento del 21\% en el reclutamiento. El escenario 6 no muestra diferencias significativas respecto del escenario 5, salvo una ligera dismiución en el reclutamiento (~3\%). Finalmente, cuando se incorpora el conjunto de información actualizada (escenario 7) se registra un aumento del 18\% en los reclutamientos, una disminución del 4\% de la biomasa desovante y del 6\% BD/BDRMS, y un incremento del 44\% de la mortalidad por pesca respecto de la asesoría previa.
+
+```{r}
+load(Rdata_s1); Reclutas_s1<-rep$Reclutas; BD_s1<-rep$SSB; reduc_s1<-rep$BD_Brms; F_s1<-rep$Ftot 
+load(Rdata_s2); Reclutas_s2<-rep$Reclutas; BD_s2<-rep$SSB; reduc_s2<-rep$BD_Brms; F_s2<-rep$Ftot 
+load(Rdata_s3); Reclutas_s3<-rep$Reclutas; BD_s3<-rep$SSB; reduc_s3<-rep$BD_Brms; F_s3<-rep$Ftot 
+load(Rdata_s4); Reclutas_s4<-rep$Reclutas; BD_s4<-rep$SSB; reduc_s4<-rep$BD_Brms; F_s4<-rep$Ftot 
+load(Rdata_s5); Reclutas_s5<-rep$Reclutas; BD_s5<-rep$SSB; reduc_s5<-rep$BD_Brms; F_s5<-rep$Ftot 
+load(Rdata_s6); Reclutas_s6<-rep$Reclutas; BD_s6<-rep$SSB; reduc_s6<-rep$BD_Brms; F_s6<-rep$Ftot 
+load(Rdata_s7); Reclutas_s7<-rep$Reclutas; BD_s7<-rep$SSB; reduc_s7<-rep$BD_Brms; F_s7<-rep$Ftot 
+
+
+label_tb<-"\\label{Tabobj4_capt}"
+casos<-c("S1","S2","S3","S4", "S5","S6","S7")
+R<-c(Reclutas_s1[27],Reclutas_s2[27],Reclutas_s3[27],Reclutas_s4[27],Reclutas_s5[27],
+     Reclutas_s6[27],Reclutas_s7[27])
+BD<-c(BD_s1[27],BD_s2[27],BD_s3[27],BD_s4[27],BD_s5[27],BD_s6[27],BD_s7[27])
+Reduccion<-c(reduc_s1[27],reduc_s2[27],reduc_s3[27],reduc_s4[27],reduc_s5[27],
+             reduc_s6[27],reduc_s7[27])
+Mortalidad<-c(F_s1[27],F_s2[27],F_s3[27],F_s4[27],F_s5[27],F_s6[27],F_s7[27])
+
+
+dataS<-cbind("Escenarios" = casos,
+                  "R"= R,
+                  "BD"= BD,
+                  "$BD/BD_{RMS}$"= round(Reduccion,2),
+                  "F"=round(Mortalidad,2),
+                  "R.diff"=round((1-(R/Reclutas_s1[27])),2),
+                  "BD.diff"=round((1-(BD/BD_s1[27])),2),
+                  "$BD/BD_{RMS}$.diff"=round((1-(Reduccion/reduc_s1[27])),2),
+                  "F.diff"=round((1-(Mortalidad/F_s1[27])),2))
+
+
+ caption1<-"Estimaciones de las principales variables de estado para el escenario 1 (asesoría de marzo 2023) comparado con los resultados según la incorporación de cada pieza de información y en su conjunto (escenario 7, asesoría de julio 2023). Se presenta el valor de estimación central y la diferencia en términos porcentuales. R= Reclutamiento, BD= Biomasa desovante, BD/BDRMS= Reducción de la población y F= Mortalidad por pesca."
+  
+  kbl(dataS, booktabs = T,format = "latex",position="h!",align="c",escape = FALSE,
+    caption = paste(label_tb,caption1,sep=" ")) %>% 
+  kable_styling(latex_options = c("striped"),
+                full_width = FALSE,font_size=9) 
+  
+```
+
+
+```{r Fig4,fig.cap="\\label{Fig4} Diferencias relativas de las estimaciones de las principales variables de estado para el caso 1 (Asesoría de marzo 2023) comparado con los resultados según la incorporación de cada pieza de información.",fig.height=6,fig.width=8}
+
+DATA_rec<-cbind(Reclutas_s1,Reclutas_s2,Reclutas_s3,Reclutas_s4,Reclutas_s5,Reclutas_s6,Reclutas_s7);
+DATA_rec<-round((1-(DATA_rec/Reclutas_s1)),2)
+
+DATA_BD<-cbind(BD_s1,BD_s2,BD_s3,BD_s4,BD_s5,BD_s6,BD_s7) 
+DATA_BD<-round((1-(DATA_BD/BD_s1)),2)
+
+DATA_reduc<-cbind(reduc_s1,reduc_s2,reduc_s3,reduc_s4,reduc_s5,reduc_s6,reduc_s7) 
+DATA_reduc<-round((1-(DATA_reduc/reduc_s1)),2)
+
+DATA_F<-cbind(F_s1,F_s2,F_s3,F_s4,F_s5,F_s6,F_s7) 
+DATA_F<-round((1-(DATA_F/F_s1)),2)
+
+Años <- c(1997:2023)
+
+DF_recluta <- data.frame(cbind(DATA_rec,Años))
+DF_BD <- data.frame(cbind(DATA_BD,Años))
+DF_reduc <- data.frame(cbind(DATA_reduc,Años))
+DF_F <- data.frame(cbind(DATA_F,Años))
+
+DF_recl_melt<-melt(DF_recluta, id = c("Años"))
+DF_BD_melt<-melt(DF_BD, id = c("Años"))
+DF_reduc_melt<-melt(DF_reduc, id = c("Años"))
+DF_F_melt<-melt(DF_F, id = c("Años"))
+
+
+  #Retrospectivo relativo
+  Rtrel <- ggplot(DF_recl_melt,aes(x=Años,y=value, colour=variable,group=variable)) + 
+    lims(y=c(-0.5,0.5)) +
+    geom_line(size=0.8)+
+    labs(x = '', y = 'Diferencia relativa')  +
+    scale_x_continuous(breaks = seq(from = 1995, to = 2025, by = 10)) +
+    scale_colour_manual(values=c("#000000", "#E69F00", "#56B4E9", "#009E73",
+          "#F0E442", "#0072B2", "#CC79A7"),
+          name = "Escenarios", labels = c("S1","S2","S3","S4", "S5","S6","S7"))+
+    theme_bw(base_size=9) +
+    ggtitle('Reclutamientos')+
+    theme(plot.title = element_text(hjust = 0.5))
+  
+  BDrel <- ggplot(DF_BD_melt,aes(x=Años,y=value, colour=variable,group=variable)) + 
+    lims(y=c(-0.5,0.5)) +
+    geom_line(size=0.8)+
+    labs(x = '', y = 'Diferencia relativa')  +
+    scale_x_continuous(breaks = seq(from = 1995, to = 2025, by = 10)) +
+    scale_colour_manual(values=c("#000000", "#E69F00", "#56B4E9", "#009E73",
+          "#F0E442", "#0072B2", "#CC79A7"))+
+    theme_bw(base_size=9) +
+    ggtitle('Biomasa Desovante')+
+    theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+  
+  Reducrel <- ggplot(DF_reduc_melt,aes(x=Años,y=value, colour=variable,group=variable)) + 
+    lims(y=c(-0.5,0.5)) +
+    geom_line(size=0.8)+
+    labs(x = '', y = 'Diferencia relativa')  +
+    scale_x_continuous(breaks = seq(from = 1995, to = 2025, by = 5)) +
+    scale_colour_manual(values=c("#000000", "#E69F00", "#56B4E9", "#009E73",
+          "#F0E442", "#0072B2", "#CC79A7"))+
+    theme_bw(base_size=9) +
+    ggtitle(bquote(BD/BD[RMS]))+
+    theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+  
+  Ftrel <- ggplot(DF_F_melt,aes(x=Años,y=value, colour=variable,group=variable)) + 
+    lims(y=c(-0.5,0.5)) +
+    geom_line(size=0.8)+
+    labs(x = '', y = 'Diferencia relativa')  +
+    scale_x_continuous(breaks = seq(from = 1995, to = 2025, by = 5)) +
+    scale_colour_manual(values=c("#000000", "#E69F00", "#56B4E9", "#009E73",
+          "#F0E442", "#0072B2", "#CC79A7"))+
+    theme_bw(base_size=9) +
+    ggtitle('Mortalidad por pesca')+
+    theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+  
+ Rtrel/BDrel|Reducrel/Ftrel
+  
+```
