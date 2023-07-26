@@ -1,0 +1,191 @@
+---
+title: ""
+output: 
+    pdf_document:
+      toc: FALSE
+      toc_depth: '3'
+      number_sections: yes
+header-includes:
+- \usepackage{draftwatermark}
+- \SetWatermarkText{}
+- \usepackage[spanish,es-tabla,shorthands=off]{babel}
+- \usepackage{setspace}
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \usepackage{booktabs}
+- \usepackage{amsmath}
+- \usepackage{nicematrix}
+- \usepackage{tabularx}
+- \usepackage{hyperref}
+- \usepackage[flushleft]{threeparttable}
+- \captionsetup[table]{name=\textbf{Tabla},labelsep=period}
+- \captionsetup[figure]{name=\textbf{Figura},labelsep=period}
+- \captionsetup{justification=justified,format=plain,font=small,labelfont=bf,margin=40pt}
+- \pagestyle{fancy}
+- \usepackage{geometry}
+- \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \usepackage{multirow}
+- \usepackage{multicol}
+- \usepackage{gensymb}
+- \usepackage{natbib}
+- \usepackage[bottom]{footmisc}
+- \renewcommand{\baselinestretch}{1.2}
+- \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
+- \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
+- \usepackage{color,colortbl}
+- \DeclareUnicodeCharacter{2212}{-}
+- \definecolor{Gray}{rgb}{0.801,0.801,0.801}
+- \definecolor{Gray1}{rgb}{0.790,0.790,0.790}
+- \definecolor{Gray2}{rgb}{0.830,0.830,0.830}
+- \definecolor{Gray3}{rgb}{0.870,0.870,0.870}
+- \definecolor{Gray4}{rgb}{0.940,0.940,0.940}
+- \addtolength{\headheight}{4.5\baselineskip}
+- \setlength{\headheight}{70pt}
+- \setlength{\footskip}{7.875pt}
+- \setlength{\textheight}{658pt}
+- \fancyhead[CO,CE]{\includegraphics[height=1.5cm]{Figuras/logoifop.png}\\ \sietepuntos INSTITUTO DE FOMENTO PESQUERO / DIVISION INVESTIGACION PESQUERA}
+- \fancyhead[LO,LE]{ }
+- \fancyhead[RO,RE]{ }
+- \renewcommand{\headrulewidth}{0.5pt}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2022 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME (FINAL). ANCHOVETA, REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2023. ANEXO II.}
+
+---
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT1.png}
+\end{figure}
+```
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT2.pdf}
+\end{figure}
+```
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT3.pdf}
+\end{figure}
+```
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT4.pdf}
+\end{figure}
+```
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT5.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT6.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT7.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT8.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT9.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT10.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT11.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT12.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT13.pdf}
+\end{figure}
+```
+
+
+
+
+```{=tex}
+\begin{figure}[!b]
+\centering
+\includegraphics[width=1\textwidth]{Figuras_PPT/PPT14.pdf}
+\end{figure}
+```
+
