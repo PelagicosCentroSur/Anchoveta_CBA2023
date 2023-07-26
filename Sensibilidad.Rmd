@@ -51,6 +51,7 @@ header-includes:
 - \fancyhead[LO,LE]{ }
 - \fancyhead[RO,RE]{ }
 - \renewcommand{\headrulewidth}{0.5pt}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2022 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME. ANCHOVETA,  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2023}
 
 bibliography: Referencias_BibTEX.bib
 csl: apa_1.csl
@@ -194,7 +195,6 @@ removefileadmb(dir.1,"MAE723s6")
 
 ```{r}
 # `Fn_CrearRdata.R`
-
 setwd(dir.1)
 ## Archivos de entrada y salida ADMB
 admb_dat  <- list.files(pattern=".dat")
