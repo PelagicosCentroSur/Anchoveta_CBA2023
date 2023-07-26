@@ -614,7 +614,7 @@ fig13<-function(Rdata_H1,Rdata_H2,Rdata_H3,HITOact,opt.IND,opt.name_IND,col_line
   if(HITOact=="Hito 3"){DATA<-rbind(VarPob_H1,VarPob_H2,VarPob_H3)} 
   
   IND   <-c("Rt","BT","BD","Ft")
-  name_IND<-c("Reclutamientos","Biomasa total","Biomasa desovante","Mortalidad por Pesca")
+  name_IND<-c("Reclutamientos (t)","Biomasa total (t)","Biomasa desovante (t)","Mortalidad por Pesca")
   
   ind<-DATA %>% filter(Hito==HITOact,indicador==IND[opt.IND]) 
   meanind<-mean(ind$value)
