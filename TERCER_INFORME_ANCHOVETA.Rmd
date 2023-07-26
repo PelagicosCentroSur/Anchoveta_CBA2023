@@ -43,7 +43,7 @@ header-includes:
 - \fancyhead[LO,LE]{ }
 - \fancyhead[RO,RE]{ }
 - \renewcommand{\headrulewidth}{0.5pt}
-- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2022 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME. ANCHOVETA,  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2023}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2022 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME (FINAL). ANCHOVETA,  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2023}
 number_sections: yes
 bibliography: Referencias_BibTEX.bib
 csl: apa_1.csl
@@ -55,6 +55,18 @@ editor_options:
   markdown: 
     wrap: 72
 ---
+
+**7. ANEXOS**
+
+\hyphenpenalty=10000\uppercase\expandafter{} \hspace{1.2cm} 
+**ANEXO I.** Proceso de actualización de datos de entrada al modelo de evaluación de anchoveta.
+
+\hyphenpenalty=10000\uppercase\expandafter{} \hspace{1.2cm} 
+**ANEXO II.** Presentación Taller de Datos y Modelos 2023 (Parte I):  Exploración de modelos en escala temporal inferior al año .
+
+\hyphenpenalty=10000\uppercase\expandafter{} \hspace{1.2cm} 
+**ANEXO III.** Presentación Taller de Datos y Modelos 2023 (Parte II):  Incorporación de la Biomasa desovante estimada por el Método de Producción diaria de Huevos (MPDH) al modelo de evaluación de stock.
+
 
 ```{=tex}
 \newpage
@@ -76,7 +88,7 @@ knitr::opts_chunk$set(echo=F, warning=FALSE, message=FALSE,collapse=TRUE,fig.ali
                "patchwork","dplyr","reshape","here","pdftools","forcats","ggpubr")
  lapply(paquetes, require, character.only = TRUE)
  
- #pdf_combine(c("PORTADA_INICIAL.pdf", "SEGUNDO_INFORME_ANCH.pdf", "PORTADA_FINAL.pdf"), output = "RESULTADOS_SEGUNDO_INFORME.pdf")
+pdf_combine(c("PORTADA_INICIAL.pdf", "TERCER_INFORME_ANCHOVETA.pdf","PORTADA_ANEXO_I.pdf","Sensibilidad.pdf","PORTADA_ANEXO_II.pdf","ANEXOII_tallerdatosParteI.pdf","PORTADA_ANEXO_III.pdf", "ANEXOIII_tallerdatosParteII.pdf" ,"PORTADA_FINAL.pdf"), output = "RESULTADOS_TERCER_INFORME_ANCHOVETA.pdf")
 ```
 
 ```{r}
@@ -2117,7 +2129,7 @@ El esquema general se mantiene para los futuros proyectos de la siguiente forma.
 
 \quad
 
-La \textbf{Tabla \ref{Tab39b}} resume las presentaciones realizadas durante al año 2022 y primer semestre del 2023 al Comité Científico Técnico de Pesquerías Pelágicas y Comité de Manejo de sardina común y anchoveta (CM), regiones de Valparaíso a Los Lagos. Estas presentación tienen relación con la revisión de criterios para incorporar el descarte en la evaluación de stock y cálculo de CBA, resultados preliminares como parte del programa de mejoramiento continuo de anchoveta centro-sur, revisión de estatus y CBA 2022 y 2023 según el hito del ciclo de manejo correspondiente, revisión de los supuestos de proyección y cálculo de CBA.
+La \textbf{Tabla \ref{Tab39b}} resume las presentaciones realizadas durante al año 2022 y primer semestre del 2023 al Comité Científico Técnico de Pesquerías Pelágicas y Comité de Manejo de sardina común y anchoveta (CM), regiones de Valparaíso a Los Lagos. Estas presentación tienen relación con la revisión de criterios para incorporar el descarte en la evaluación de stock y cálculo de CBA, resultados preliminares como parte del programa de mejoramiento continuo de anchoveta centro-sur, revisión de estatus y CBA 2022 y 2023 según el hito del ciclo de manejo correspondiente, revisión de los supuestos de proyección y cálculo de CBA. Adicionalmente, el ANEXO II y III de este informe contiene las presentaciones realizadas al CCT-PP correspondientes al Taller de Datos y Modelos 2023, que tiene relación con el plan de mejoramiento continuo (estos resultados serán reportados en el primer informe de septiembre 2023).
 
 \vspace{1cm}
 
